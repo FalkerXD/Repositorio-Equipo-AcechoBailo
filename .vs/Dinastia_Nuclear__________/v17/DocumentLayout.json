@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\LAB01-09\\Desktop\\Dinastia_Nuclear__________\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8966037B-DDB2-A9CA-C37E-2A64690EA5C1}|Assembly-CSharp.csproj|c:\\users\\lab01-09\\desktop\\dinastia_nuclear__________\\assets\\scripts\\movimiento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8966037B-DDB2-A9CA-C37E-2A64690EA5C1}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\movimiento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "movimiento.cs",
+              "DocumentMoniker": "C:\\Users\\LAB01-09\\Desktop\\Dinastia_Nuclear__________\\Assets\\Scripts\\movimiento.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\movimiento.cs",
+              "ToolTip": "C:\\Users\\LAB01-09\\Desktop\\Dinastia_Nuclear__________\\Assets\\Scripts\\movimiento.cs",
+              "RelativeToolTip": "Assets\\Scripts\\movimiento.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-03T14:13:31.522Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
