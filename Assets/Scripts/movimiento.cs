@@ -9,6 +9,7 @@ public class Movimiento : MonoBehaviour
     public float gravity = 9.81f;    // Magnitud de la gravedad
     public float rotationSpeed = 700f; // Velocidad de rotación
     public GameObject misilObject;   // Referencia al objeto que contiene el misil
+    public Collider golpeCollider;   // Referencia al Collider del área de golpe
 
     private CharacterController controller;
     private Animator animator;
@@ -26,6 +27,11 @@ public class Movimiento : MonoBehaviour
         if (misilObject != null)
         {
             misilScript = misilObject.GetComponent<Misil>();
+        }
+        // Asegúrate de que el Collider del área de golpe esté desactivado al inicio
+        if (golpeCollider != null)
+        {
+            golpeCollider.enabled = false;
         }
     }
 
@@ -91,16 +97,34 @@ public class Movimiento : MonoBehaviour
         if (Input.GetMouseButtonDown(0)) // Click izquierdo
         {
             animator.SetBool("golpear", true);
+            ActivarGolpe(); // Activar el área de golpe cuando comienza el ataque
         }
         else if (Input.GetMouseButtonUp(0))
         {
             animator.SetBool("golpear", false);
+            DesactivarGolpe(); // Desactivar el área de golpe cuando el ataque termina
         }
 
         // Golpe especial (click derecho)
         if (Input.GetMouseButtonDown(1)) // Click derecho
         {
             animator.SetTrigger("preparando golpe");
+        }
+    }
+
+    void ActivarGolpe()
+    {
+        if (golpeCollider != null)
+        {
+            golpeCollider.enabled = true; // Activar el área de golpe
+        }
+    }
+
+    void DesactivarGolpe()
+    {
+        if (golpeCollider != null)
+        {
+            golpeCollider.enabled = false; // Desactivar el área de golpe
         }
     }
 }
