@@ -77,6 +77,12 @@ public class Movimiento : MonoBehaviour
         {
             misilScript.LanzarMisil();
         }
+
+        // Activa la animación "Lanzo" cuando se presiona la tecla "Q"
+        if (Input.GetKeyDown(KeyCode.Q))
+        {
+            animator.SetTrigger("Lanzo");
+        }
     }
 
     void HandleCombat()
