@@ -9,13 +9,16 @@ public class Movimiento : MonoBehaviour
     public float gravity = 9.81f;    // Magnitud de la gravedad
     public float rotationSpeed = 700f; // Velocidad de rotación
     public GameObject misilObject;   // Referencia al objeto que contiene el misil
-    public Collider golpeCollider;   // Referencia al Collider del área de golpe
+    public GolpeNormal golpeNormal;  // Referencia al área de golpe normal
+    public GolpeFuerteArea golpeFuerteArea; // Referencia al área de golpe fuerte
 
     private CharacterController controller;
     private Animator animator;
     private Misil misilScript;       // Referencia al script del misil
     private Vector3 velocity;
     private bool isGrounded;
+
+    private bool golpeNormalActivo = false; // Estado del golpe normal
 
     void Start()
     {
@@ -27,11 +30,6 @@ public class Movimiento : MonoBehaviour
         if (misilObject != null)
         {
             misilScript = misilObject.GetComponent<Misil>();
-        }
-        // Asegúrate de que el Collider del área de golpe esté desactivado al inicio
-        if (golpeCollider != null)
-        {
-            golpeCollider.enabled = false;
         }
     }
 
@@ -97,34 +95,32 @@ public class Movimiento : MonoBehaviour
         if (Input.GetMouseButtonDown(0)) // Click izquierdo
         {
             animator.SetBool("golpear", true);
-            ActivarGolpe(); // Activar el área de golpe cuando comienza el ataque
+            golpeNormalActivo = true;
+            if (golpeNormal != null)
+            {
+                golpeNormal.ActivarGolpeNormal();
+            }
         }
         else if (Input.GetMouseButtonUp(0))
         {
             animator.SetBool("golpear", false);
-            DesactivarGolpe(); // Desactivar el área de golpe cuando el ataque termina
+            golpeNormalActivo = false;
+            if (golpeNormal != null)
+            {
+                golpeNormal.DesactivarGolpeNormal();
+            }
         }
 
         // Golpe especial (click derecho)
         if (Input.GetMouseButtonDown(1)) // Click derecho
         {
             animator.SetTrigger("preparando golpe");
-        }
-    }
 
-    void ActivarGolpe()
-    {
-        if (golpeCollider != null)
-        {
-            golpeCollider.enabled = true; // Activar el área de golpe
-        }
-    }
-
-    void DesactivarGolpe()
-    {
-        if (golpeCollider != null)
-        {
-            golpeCollider.enabled = false; // Desactivar el área de golpe
+            // Iniciar el golpe fuerte
+            if (golpeFuerteArea != null)
+            {
+                golpeFuerteArea.IniciarGolpeFuerte();
+            }
         }
     }
 }

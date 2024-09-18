@@ -1,60 +1,54 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI; // Si estás usando una barra de salud visual.
 
 public class Salud : MonoBehaviour
 {
-    [Header("Configuración de Salud")]
-    [Tooltip("La salud máxima que tendrá el personaje o enemigo.")]
-    public float saludMaxima = 100f;  // Salud máxima determinada desde el Inspector.
-    private float saludActual;         // Salud actual.
-
-    [Header("Barra de Salud (Opcional)")]
-    public Image barraDeSalud;         // Referencia a la barra de salud (UI).
-    public Gradient gradienteDeSalud;  // Gradiente para cambiar el color de la barra.
+    public float saludMaxima = 100f;  // Salud máxima del enemigo
+    public float saludActual;         // Salud actual del enemigo, visible en el Inspector
+    public GameObject efectoMuerte;   // Efecto visual o de partículas para la muerte
+    public bool desactivarEnemigo = true;  // Opción para desactivar el GameObject en lugar de destruirlo
 
     void Start()
     {
-        saludActual = saludMaxima;  // Al iniciar, la salud es igual a la salud máxima.
-        ActualizarBarraDeSalud();
+        // Inicializa la salud actual con la salud máxima
+        saludActual = saludMaxima;
     }
 
-    // Método para recibir daño.
-    public void RecibirDaño(float cantidadDeDaño)
+    // Método para aplicar daño
+    public void RecibirDaño(float cantidad)
     {
-        saludActual -= cantidadDeDaño;  // Reducir la salud.
-        saludActual = Mathf.Clamp(saludActual, 0, saludMaxima);  // Asegurar que la salud no sea menor que 0 ni mayor que la máxima.
-        ActualizarBarraDeSalud();
+        saludActual -= cantidad;  // Reducir la salud actual por la cantidad de daño recibido
+        saludActual = Mathf.Clamp(saludActual, 0f, saludMaxima);  // Asegurarse de que la salud no sea menor que 0
 
-        if (saludActual <= 0)
+        // Verificar si la salud ha llegado a 0 o menos
+        if (saludActual <= 0f)
         {
-            Morir();  // Llamar a la función de muerte si la salud llega a 0.
+            Morir();
         }
+
+        // Aquí podrías agregar otras lógicas relacionadas con la muerte o efectos visuales
+        Debug.Log($"Salud actual: {saludActual}"); // Opcional: Log para verificar en la consola
     }
 
-    // Método para curarse.
-    public void Curar(float cantidadDeCura)
+    // Método para manejar la muerte del enemigo
+    void Morir()
     {
-        saludActual += cantidadDeCura;  // Aumentar la salud.
-        saludActual = Mathf.Clamp(saludActual, 0, saludMaxima);  // Asegurar que la salud no supere la máxima.
-        ActualizarBarraDeSalud();
-    }
-
-    // Método para actualizar la barra de salud visual.
-    private void ActualizarBarraDeSalud()
-    {
-        if (barraDeSalud != null)
+        // Reproducir efecto de muerte si se ha asignado uno
+        if (efectoMuerte != null)
         {
-            barraDeSalud.fillAmount = saludActual / saludMaxima;  // Actualizar la barra de salud.
-            barraDeSalud.color = gradienteDeSalud.Evaluate(barraDeSalud.fillAmount);  // Cambiar el color según el gradiente.
+            Instantiate(efectoMuerte, transform.position, transform.rotation);
         }
-    }
 
-    // Método que se llama cuando el personaje o enemigo muere.
-    private void Morir()
-    {
-        Debug.Log(gameObject.name + " ha muerto.");
-        gameObject.SetActive(false);  // Desactivar el objeto al morir.
+        // Desactivar el GameObject si la opción está habilitada
+        if (desactivarEnemigo)
+        {
+            gameObject.SetActive(false);
+        }
+        else
+        {
+            // Alternativamente, destruir el GameObject
+            Destroy(gameObject);
+        }
     }
 }
