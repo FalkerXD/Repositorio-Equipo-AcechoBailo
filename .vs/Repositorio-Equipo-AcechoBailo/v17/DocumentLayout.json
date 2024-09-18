@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\PROYECTOS UNITY\\Repositorio-Equipo-AcechoBailo\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0C16C5D6-A8AE-5D75-A3AB-04EDF0210232}|Assembly-CSharp.csproj|d:\\proyectos unity\\repositorio-equipo-acechobailo\\assets\\scripts\\movimiento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C16C5D6-A8AE-5D75-A3AB-04EDF0210232}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\movimiento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "movimiento.cs",
+              "DocumentMoniker": "D:\\PROYECTOS UNITY\\Repositorio-Equipo-AcechoBailo\\Assets\\Scripts\\movimiento.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\movimiento.cs",
+              "ToolTip": "D:\\PROYECTOS UNITY\\Repositorio-Equipo-AcechoBailo\\Assets\\Scripts\\movimiento.cs",
+              "RelativeToolTip": "Assets\\Scripts\\movimiento.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-18T14:00:13.187Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
