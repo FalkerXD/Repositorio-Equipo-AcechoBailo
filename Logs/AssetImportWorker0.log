@@ -1,23 +1,23 @@
 Using pre-set license
 Built from '2022.3/staging' branch; Version is '2022.3.22f1 (887be4894c44) revision 8944612'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 11  (10.0.22631) 64bit CoreSingleLanguage' Language: 'es' Physical Memory: 16255 MB
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'es' Physical Memory: 16320 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
-D:\unity installs\2022.3.22f1\Editor\Unity.exe
+D:\Unity\2022.3.22f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-D:/PROYECTOS UNITY/Repositorio-Equipo-AcechoBailo
+C:/Users/PC/Documents/GitHub/Acecho_Bailo/Repositorio-Equipo-AcechoBailo
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-51799
-Successfully changed project path to: D:/PROYECTOS UNITY/Repositorio-Equipo-AcechoBailo
-D:/PROYECTOS UNITY/Repositorio-Equipo-AcechoBailo
+51052
+Successfully changed project path to: C:/Users/PC/Documents/GitHub/Acecho_Bailo/Repositorio-Equipo-AcechoBailo
+C:/Users/PC/Documents/GitHub/Acecho_Bailo/Repositorio-Equipo-AcechoBailo
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -49,65 +49,65 @@ D:/PROYECTOS UNITY/Repositorio-Equipo-AcechoBailo
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [11740] Host "[IP] 192.168.1.9 [Port] 0 [Flags] 2 [Guid] 2827226731 [EditorId] 2827226731 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-PAHRK8I) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [1164] Host "[IP] 192.168.0.7 [Port] 0 [Flags] 2 [Guid] 1484971533 [EditorId] 1484971533 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-7P8OCVR) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [11740] Host "[IP] 192.168.1.9 [Port] 0 [Flags] 2 [Guid] 2827226731 [EditorId] 2827226731 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-PAHRK8I) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [1164] Host "[IP] 192.168.0.7 [Port] 0 [Flags] 2 [Guid] 1484971533 [EditorId] 1484971533 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-7P8OCVR) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-[Physics::Module] Initialized MultithreadedJobDispatcher with 7 workers.
-Refreshing native plugins compatible for Editor in 44.85 ms, found 3 plugins.
+[Physics::Module] Initialized MultithreadedJobDispatcher with 3 workers.
+Refreshing native plugins compatible for Editor in 14.91 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.22f1 (887be4894c44)
-[Subsystems] Discovering subsystems at path D:/unity installs/2022.3.22f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path D:/PROYECTOS UNITY/Repositorio-Equipo-AcechoBailo/Assets
+[Subsystems] Discovering subsystems at path D:/Unity/2022.3.22f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/PC/Documents/GitHub/Acecho_Bailo/Repositorio-Equipo-AcechoBailo/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce GTX 1050 (ID=0x1c91)
+    Renderer: NVIDIA GeForce GTX 1050 Ti (ID=0x1c82)
     Vendor:   NVIDIA
-    VRAM:     2981 MB
-    Driver:   32.0.15.6109
+    VRAM:     4017 MB
+    Driver:   31.0.15.3623
 Initialize mono
-Mono path[0] = 'D:/unity installs/2022.3.22f1/Editor/Data/Managed'
-Mono path[1] = 'D:/unity installs/2022.3.22f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
-Mono config path = 'D:/unity installs/2022.3.22f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56880
+Mono path[0] = 'D:/Unity/2022.3.22f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Unity/2022.3.22f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/Unity/2022.3.22f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56708
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: D:/unity installs/2022.3.22f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.034068 seconds.
-- Loaded All Assemblies, in  0.918 seconds
+Register platform support module: D:/Unity/2022.3.22f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.006579 seconds.
+- Loaded All Assemblies, in  0.513 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.428 seconds
-Domain Reload Profiling: 1340ms
-	BeginReloadAssembly (371ms)
+- Finished resetting the current domain, in  0.355 seconds
+Domain Reload Profiling: 867ms
+	BeginReloadAssembly (169ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (97ms)
-	RebuildNativeTypeToScriptingClass (23ms)
-	initialDomainReloadingComplete (177ms)
-	LoadAllAssembliesAndSetupDomain (242ms)
-		LoadAssemblies (360ms)
+	RebuildCommonClasses (50ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (78ms)
+	LoadAllAssembliesAndSetupDomain (200ms)
+		LoadAssemblies (168ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (239ms)
-			TypeCache.Refresh (237ms)
-				TypeCache.ScanAssembly (213ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
+		AnalyzeDomain (197ms)
+			TypeCache.Refresh (195ms)
+				TypeCache.ScanAssembly (177ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (429ms)
+	FinalizeReload (355ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (343ms)
+		SetupLoadedEditorAssemblies (276ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (16ms)
-			SetLoadedEditorAssemblies (15ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			SetLoadedEditorAssemblies (8ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (4ms)
-			ProcessInitializeOnLoadAttributes (240ms)
-			ProcessInitializeOnLoadMethodAttributes (68ms)
+			BeforeProcessingInitializeOnLoad (3ms)
+			ProcessInitializeOnLoadAttributes (195ms)
+			ProcessInitializeOnLoadMethodAttributes (60ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -115,1026 +115,56 @@ Domain Reload Profiling: 1340ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.389 seconds
-Refreshing native plugins compatible for Editor in 15.63 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.690 seconds
+Refreshing native plugins compatible for Editor in 5.70 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.470 seconds
-Domain Reload Profiling: 2846ms
-	BeginReloadAssembly (268ms)
+- Finished resetting the current domain, in  0.737 seconds
+Domain Reload Profiling: 1424ms
+	BeginReloadAssembly (165ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (7ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (31ms)
-	RebuildCommonClasses (50ms)
-	RebuildNativeTypeToScriptingClass (15ms)
-	initialDomainReloadingComplete (80ms)
-	LoadAllAssembliesAndSetupDomain (961ms)
-		LoadAssemblies (745ms)
+		CreateAndSetChildDomain (22ms)
+	RebuildCommonClasses (38ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (43ms)
+	LoadAllAssembliesAndSetupDomain (427ms)
+		LoadAssemblies (314ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (391ms)
-			TypeCache.Refresh (333ms)
-				TypeCache.ScanAssembly (305ms)
-			ScanForSourceGeneratedMonoScriptInfo (26ms)
-			ResolveRequiredComponents (31ms)
-	FinalizeReload (1471ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1033ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (26ms)
-			SetLoadedEditorAssemblies (12ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (165ms)
-			ProcessInitializeOnLoadAttributes (744ms)
-			ProcessInitializeOnLoadMethodAttributes (50ms)
-			AfterProcessingInitializeOnLoad (35ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (17ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.16 seconds
-Refreshing native plugins compatible for Editor in 26.19 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3127 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 33 unused Assets / (57.5 KB). Loaded Objects now: 3587.
-Memory consumption went from 127.2 MB to 127.1 MB.
-Total: 11.409800 ms (FindLiveObjects: 0.947300 ms CreateObjectMapping: 0.477100 ms MarkObjects: 9.691500 ms  DeleteObjects: 0.291200 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 1540.205781 seconds.
-  path: Assets/Mapa_Y_Escenas
-  artifactKey: Guid(14867648bc917104ea46cb20dbc02f11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mapa_Y_Escenas using Guid(14867648bc917104ea46cb20dbc02f11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0c2ea53995276041388a1ca1b235191') in 0.008155 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.004778 seconds.
-  path: Assets/Mapa_Y_Escenas/NivelTutorial.unity
-  artifactKey: Guid(5a463281e6e238742a45430f11e82829) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mapa_Y_Escenas/NivelTutorial.unity using Guid(5a463281e6e238742a45430f11e82829) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2954c3d47712f6a2e09de6cbc802a9d6') in 0.001378 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 90.239973 seconds.
-  path: Assets/Mapa_Y_Escenas/Roads
-  artifactKey: Guid(17ba308a597e27f4e9012b5cd729f02e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mapa_Y_Escenas/Roads using Guid(17ba308a597e27f4e9012b5cd729f02e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2d0db3346f3de71b94a92340e465fa3') in 0.000907 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 1.358631 seconds.
-  path: Assets/Mapa_Y_Escenas/Roads/Floor_elevation_sets
-  artifactKey: Guid(4bf8f9f47cfd35c43b1b6f903e2931ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mapa_Y_Escenas/Roads/Floor_elevation_sets using Guid(4bf8f9f47cfd35c43b1b6f903e2931ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2928e34091bb98ec256a6a2955cf76e') in 0.000634 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.661539 seconds.
-  path: Assets/Mapa_Y_Escenas/Roads/Floor_elevation_sets/UNIFloor_elevation_set_v1
-  artifactKey: Guid(1f612d0a7b864004dbede7d4de574ae7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mapa_Y_Escenas/Roads/Floor_elevation_sets/UNIFloor_elevation_set_v1 using Guid(1f612d0a7b864004dbede7d4de574ae7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb3b43d888511a50208eda037df38618') in 0.000921 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.060137 seconds.
-  path: Assets/Mapa_Y_Escenas/Roads/Floor_elevation_sets/UNIFloor_elevation_set_v1/UNIConcrete_wall_v1_S_L_1.prefab
-  artifactKey: Guid(f1713c869f87944428ac3dfac534a165) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mapa_Y_Escenas/Roads/Floor_elevation_sets/UNIFloor_elevation_set_v1/UNIConcrete_wall_v1_S_L_1.prefab using Guid(f1713c869f87944428ac3dfac534a165) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7344e71d800cc243617f66eebaff787') in 0.368805 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 26
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Mapa_Y_Escenas/Roads/Floor_elevation_sets/UNIFloor_elevation_set_v1/UNIConcrete_wall_v1_W_end_4.prefab
-  artifactKey: Guid(79fcf40c17def694d9e8d130f75750a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mapa_Y_Escenas/Roads/Floor_elevation_sets/UNIFloor_elevation_set_v1/UNIConcrete_wall_v1_W_end_4.prefab using Guid(79fcf40c17def694d9e8d130f75750a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '903748002594c8d118df7937ce1c18c2') in 0.027377 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/Mapa_Y_Escenas/Roads/Floor_elevation_sets/UNIFloor_elevation_set_v1/UNIConcrete_wall_v1_S_R_1.prefab
-  artifactKey: Guid(a2416fad2b37fbe4a8dc7ae8e7a48dc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mapa_Y_Escenas/Roads/Floor_elevation_sets/UNIFloor_elevation_set_v1/UNIConcrete_wall_v1_S_R_1.prefab using Guid(a2416fad2b37fbe4a8dc7ae8e7a48dc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cfbe7d288e944c2c0daa8ef60bfcbc0') in 0.027050 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 26
-========================================================================
-Received Import Request.
-  Time since last request: 0.000055 seconds.
-  path: Assets/Mapa_Y_Escenas/Roads/Floor_elevation_sets/UNIFloor_elevation_set_v1/UNIConcrete_wall_v1_S_left.prefab
-  artifactKey: Guid(38c764ae84d05c74aa08d07948986de3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mapa_Y_Escenas/Roads/Floor_elevation_sets/UNIFloor_elevation_set_v1/UNIConcrete_wall_v1_S_left.prefab using Guid(38c764ae84d05c74aa08d07948986de3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b93c560a2e183121a36a50809dfae31') in 0.026203 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Mapa_Y_Escenas/Roads/Floor_elevation_sets/UNIFloor_elevation_set_v1/UNIConcrete_wall_v1_W_3.prefab
-  artifactKey: Guid(fcbcdad4411dafb489c6994b483d02a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mapa_Y_Escenas/Roads/Floor_elevation_sets/UNIFloor_elevation_set_v1/UNIConcrete_wall_v1_W_3.prefab using Guid(fcbcdad4411dafb489c6994b483d02a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae9bf3d7ba4c0df9ac4bc69ecfc1224a') in 0.037071 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 20
-========================================================================
-Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/Mapa_Y_Escenas/Roads/Floor_elevation_sets/UNIFloor_elevation_set_v1/UNIConcrete_wall_v1_W_end_3.prefab
-  artifactKey: Guid(51ef0a690170e4447993cb966ef83781) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mapa_Y_Escenas/Roads/Floor_elevation_sets/UNIFloor_elevation_set_v1/UNIConcrete_wall_v1_W_end_3.prefab using Guid(51ef0a690170e4447993cb966ef83781) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41239d3f78c27550f270b044f8235adf') in 0.028164 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/Mapa_Y_Escenas/Roads/Floor_elevation_sets/UNIFloor_elevation_set_v1/UNIConcrete_wall_v1_W_tile_2.prefab
-  artifactKey: Guid(1bf12e9c9fed6d740986f2d447756b0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mapa_Y_Escenas/Roads/Floor_elevation_sets/UNIFloor_elevation_set_v1/UNIConcrete_wall_v1_W_tile_2.prefab using Guid(1bf12e9c9fed6d740986f2d447756b0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ce1abc83e23c73691d87ccfec704804') in 0.028158 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Mapa_Y_Escenas/Roads/Floor_elevation_sets/UNIFloor_elevation_set_v1/UNIConcrete_wall_v1_W_2.prefab
-  artifactKey: Guid(b31e382504d035d458b4818d7195a336) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mapa_Y_Escenas/Roads/Floor_elevation_sets/UNIFloor_elevation_set_v1/UNIConcrete_wall_v1_W_2.prefab using Guid(b31e382504d035d458b4818d7195a336) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4593a3713c9b948fa1c839220d6bf79') in 0.034841 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 20
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Mapa_Y_Escenas/Roads/Floor_elevation_sets/UNIFloor_elevation_set_v1/UNIConcrete_wall_v1_W_end_2.prefab
-  artifactKey: Guid(48b4f0a37e13e804fa5c6e2ba91af4a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mapa_Y_Escenas/Roads/Floor_elevation_sets/UNIFloor_elevation_set_v1/UNIConcrete_wall_v1_W_end_2.prefab using Guid(48b4f0a37e13e804fa5c6e2ba91af4a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5af470ae7aca1bc66921d9014567f37c') in 0.031926 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Mapa_Y_Escenas/Roads/Floor_elevation_sets/UNIFloor_elevation_set_v1/UNIConcrete_wall_v1_S_single.prefab
-  artifactKey: Guid(88ff00979f9abfc40b8bd0cfc885d175) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mapa_Y_Escenas/Roads/Floor_elevation_sets/UNIFloor_elevation_set_v1/UNIConcrete_wall_v1_S_single.prefab using Guid(88ff00979f9abfc40b8bd0cfc885d175) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e125dab787836ee5fa5d6611c1cb7b9') in 0.029355 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/Mapa_Y_Escenas/Roads/Floor_elevation_sets/UNIFloor_elevation_set_v1/UNIConcrete_wall_v1_W_tile_1.prefab
-  artifactKey: Guid(ce4929b3f402674448dd1e25c648d9b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mapa_Y_Escenas/Roads/Floor_elevation_sets/UNIFloor_elevation_set_v1/UNIConcrete_wall_v1_W_tile_1.prefab using Guid(ce4929b3f402674448dd1e25c648d9b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77abbc2a981db9f130952bbae4290148') in 0.028722 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Mapa_Y_Escenas/Roads/Floor_elevation_sets/UNIFloor_elevation_set_v1/UNIConcrete_wall_v1_W_1.prefab
-  artifactKey: Guid(aa8e284847475604385ec530acc0bc28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mapa_Y_Escenas/Roads/Floor_elevation_sets/UNIFloor_elevation_set_v1/UNIConcrete_wall_v1_W_1.prefab using Guid(aa8e284847475604385ec530acc0bc28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf1af18520d15a0253470a2a14aa51dd') in 0.033141 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 20
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Mapa_Y_Escenas/Roads/Floor_elevation_sets/UNIFloor_elevation_set_v1/UNIConcrete_wall_v1_W_end_1.prefab
-  artifactKey: Guid(c3bbd9f38e0f2744a9cd075aabf8c52d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mapa_Y_Escenas/Roads/Floor_elevation_sets/UNIFloor_elevation_set_v1/UNIConcrete_wall_v1_W_end_1.prefab using Guid(c3bbd9f38e0f2744a9cd075aabf8c52d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0de9e202abe807591c441ebb62d20fa2') in 0.030093 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Mapa_Y_Escenas/Roads/Floor_elevation_sets/UNIFloor_elevation_set_v1/UNIConcrete_wall_v1_S_R_2.prefab
-  artifactKey: Guid(7b4f0314f4e30c94185e84a096c302bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mapa_Y_Escenas/Roads/Floor_elevation_sets/UNIFloor_elevation_set_v1/UNIConcrete_wall_v1_S_R_2.prefab using Guid(7b4f0314f4e30c94185e84a096c302bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc5afae448dcab6f6ad8de0651b4d13d') in 0.030799 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 20
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Mapa_Y_Escenas/Roads/Floor_elevation_sets/UNIFloor_elevation_set_v1/UNIConcrete_wall_v1_S_middle.prefab
-  artifactKey: Guid(e08e48c08f76113458c351bd1e07e5ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mapa_Y_Escenas/Roads/Floor_elevation_sets/UNIFloor_elevation_set_v1/UNIConcrete_wall_v1_S_middle.prefab using Guid(e08e48c08f76113458c351bd1e07e5ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2d5e3ae0a8bf4f0533d23cda015bec3') in 0.047823 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Mapa_Y_Escenas/Roads/Floor_elevation_sets/UNIFloor_elevation_set_v1/UNIConcrete_wall_v1_S_L_2.prefab
-  artifactKey: Guid(67b4ca73507352a40a4ba54118669807) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mapa_Y_Escenas/Roads/Floor_elevation_sets/UNIFloor_elevation_set_v1/UNIConcrete_wall_v1_S_L_2.prefab using Guid(67b4ca73507352a40a4ba54118669807) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5b315d7fd85a59dbad3754262651010') in 0.029070 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 20
-========================================================================
-Received Import Request.
-  Time since last request: 0.000182 seconds.
-  path: Assets/Mapa_Y_Escenas/Roads/Floor_elevation_sets/UNIFloor_elevation_set_v1/UNIConcrete_wall_v1_S_right.prefab
-  artifactKey: Guid(507134deeacac104cade4f939779e63f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mapa_Y_Escenas/Roads/Floor_elevation_sets/UNIFloor_elevation_set_v1/UNIConcrete_wall_v1_S_right.prefab using Guid(507134deeacac104cade4f939779e63f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c062f951e609f1265fe1d2fbe4212df8') in 0.033050 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  3.875 seconds
-Refreshing native plugins compatible for Editor in 13.12 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in 60.012 seconds
-Domain Reload Profiling: 63871ms
-	BeginReloadAssembly (298ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (9ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (40ms)
-	RebuildCommonClasses (46ms)
-	RebuildNativeTypeToScriptingClass (14ms)
-	initialDomainReloadingComplete (55ms)
-	LoadAllAssembliesAndSetupDomain (3445ms)
-		LoadAssemblies (3565ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (28ms)
-			TypeCache.Refresh (10ms)
-				TypeCache.ScanAssembly (1ms)
-			ScanForSourceGeneratedMonoScriptInfo (8ms)
-			ResolveRequiredComponents (8ms)
-	FinalizeReload (60013ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (721ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (12ms)
-			SetLoadedEditorAssemblies (7ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (115ms)
-			ProcessInitializeOnLoadAttributes (520ms)
-			ProcessInitializeOnLoadMethodAttributes (37ms)
-			AfterProcessingInitializeOnLoad (29ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (11ms)
-Refreshing native plugins compatible for Editor in 14.74 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3181 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 62 unused Assets / (4.9 MB). Loaded Objects now: 3652.
-Memory consumption went from 144.3 MB to 139.4 MB.
-Total: 9.524600 ms (FindLiveObjects: 0.403400 ms CreateObjectMapping: 0.309900 ms MarkObjects: 5.846900 ms  DeleteObjects: 2.962500 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 1449.425642 seconds.
-  path: Assets/Flooded_Grounds/Content/Materials/NAT_Rocks1.mat
-  artifactKey: Guid(de18bcdd793065b41b94a4fe88816ca2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Content/Materials/NAT_Rocks1.mat using Guid(de18bcdd793065b41b94a4fe88816ca2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff3e060dacf5f6f90d651746f94c414b') in 0.974083 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Flooded_Grounds/Content/Textures/DET_Rust1_N.tif
-  artifactKey: Guid(e1302a654ba0d9c49b645d40bedd313d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Content/Textures/DET_Rust1_N.tif using Guid(e1302a654ba0d9c49b645d40bedd313d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bce93c23cd6a846d6e407cbc8c03d2d') in 0.127915 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Flooded_Grounds/Content/Materials/MSC_HumanScale.mat
-  artifactKey: Guid(d43da3634ccda7e4dbfd7e94e3071c6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Content/Materials/MSC_HumanScale.mat using Guid(d43da3634ccda7e4dbfd7e94e3071c6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5f8583ce628dd44185e0b94330742e4') in 0.391994 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Flooded_Grounds/Content/Textures/PROP_FlyingSaucer1_N.tif
-  artifactKey: Guid(6c546f90bdb2f3d478d9ec25c127d540) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Content/Textures/PROP_FlyingSaucer1_N.tif using Guid(6c546f90bdb2f3d478d9ec25c127d540) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1fe20870f0826ccc2dbf7e710c0bf70') in 0.023930 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Flooded_Grounds/Content/Textures/GR_Breakup1_A.tif
-  artifactKey: Guid(2c912b5ea76df334684f8f50f436bf17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Content/Textures/GR_Breakup1_A.tif using Guid(2c912b5ea76df334684f8f50f436bf17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94ae8fe7535ffe530cfed7ba675615c1') in 0.025891 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Flooded_Grounds/Content/Textures/DET_Rust1_AS.tif
-  artifactKey: Guid(1691a7bf317a173418aeb5e3a1f8f1f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Content/Textures/DET_Rust1_AS.tif using Guid(1691a7bf317a173418aeb5e3a1f8f1f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8e5458b7ff04e9ca5027486694a80b8') in 0.019711 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Flooded_Grounds/Content/Materials/BGR_Sky1.mat
-  artifactKey: Guid(1612dc54605b67947bed7b6e6b4f48c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Content/Materials/BGR_Sky1.mat using Guid(1612dc54605b67947bed7b6e6b4f48c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dccd360895bf0f8c7edb9761cc8f9a71') in 0.063643 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 4
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Flooded_Grounds/Content/Materials/BLD_Villa1.mat
-  artifactKey: Guid(cabe3fb983aee104ea795ed6af48204a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Content/Materials/BLD_Villa1.mat using Guid(cabe3fb983aee104ea795ed6af48204a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1a5f304e1ce61045042d7c0a6161bb2') in 0.411890 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/Flooded_Grounds/Content/Textures/GR_Moss1_AS.tif
-  artifactKey: Guid(ce793f2aef81aaa4a80a1d6ec615e92b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Content/Textures/GR_Moss1_AS.tif using Guid(ce793f2aef81aaa4a80a1d6ec615e92b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a802a9e9028f3aeef0958fb42ff1f4b3') in 0.021906 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000066 seconds.
-  path: Assets/Flooded_Grounds/Content/Materials/BLD_Doors1.mat
-  artifactKey: Guid(7a8d6bb394f243445b9377162ba792a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Content/Materials/BLD_Doors1.mat using Guid(7a8d6bb394f243445b9377162ba792a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9c676029a253c6dbad00e2daf24fac9') in 0.076440 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Flooded_Grounds/Content/Materials/BLD_Structures2.mat
-  artifactKey: Guid(059f40424b9d4674ebaed350bd5e0c2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Content/Materials/BLD_Structures2.mat using Guid(059f40424b9d4674ebaed350bd5e0c2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df7190bec18af6776c6517d4dcc0c5e3') in 0.096266 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Flooded_Grounds/PostProcessing/Editor Resources/Monitors/WaveformCompute.compute
-  artifactKey: Guid(9d9b886f7a8fe7b4baf56624c42e3420) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/PostProcessing/Editor Resources/Monitors/WaveformCompute.compute using Guid(9d9b886f7a8fe7b4baf56624c42e3420) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b56b0cbf8234b8243b46c67d3af3003') in 0.003234 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Flooded_Grounds/Content/Sounds
-  artifactKey: Guid(6d9f2bd6e3dd4634c9bebf3032a946a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Content/Sounds using Guid(6d9f2bd6e3dd4634c9bebf3032a946a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37f5f43e1cb2b2a68121a719bd8b2f43') in 0.000961 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.000091 seconds.
-  path: Assets/Flooded_Grounds/Content/Materials/BLD_Structures2_LOD.mat
-  artifactKey: Guid(0a5e5d99899513c4eb2d420489f08ccd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Content/Materials/BLD_Structures2_LOD.mat using Guid(0a5e5d99899513c4eb2d420489f08ccd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8314088e82656a6aa6d846e71a9e4961') in 0.494206 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.000052 seconds.
-  path: Assets/Flooded_Grounds/Content/Meshes/mBackgrounds/BGR_Factory_A.fbx
-  artifactKey: Guid(a201c7c761d9632468fb3896c03314d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Content/Meshes/mBackgrounds/BGR_Factory_A.fbx using Guid(a201c7c761d9632468fb3896c03314d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39dd17f091edf40ea921739b0ec67746') in 0.419553 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/Flooded_Grounds/Content/Materials/PROP_Beds1.mat
-  artifactKey: Guid(048551a7027c3774882e78dd53e504c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Content/Materials/PROP_Beds1.mat using Guid(048551a7027c3774882e78dd53e504c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ceb2a1e3b70a7f9740ecba395f41f79') in 0.059182 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Flooded_Grounds/Content/Textures/PROP_FlyingSaucer1_MS.tif
-  artifactKey: Guid(f9b7e74c1f1e3a54f953c5f710d8cdfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Content/Textures/PROP_FlyingSaucer1_MS.tif using Guid(f9b7e74c1f1e3a54f953c5f710d8cdfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49224af91e4783d46157f3384a3628e2') in 0.032998 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Flooded_Grounds/Content/Materials/BGR_Water.mat
-  artifactKey: Guid(a56782aef2f1bd34285fe34f78a0b957) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Content/Materials/BGR_Water.mat using Guid(a56782aef2f1bd34285fe34f78a0b957) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de062c1701a5430aba0a3a9658145b52') in 0.544790 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/Flooded_Grounds/Content/Materials/BLD_Cabins_Mossy.mat
-  artifactKey: Guid(0491e1d077b3ca643a27b77d56cc03b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Content/Materials/BLD_Cabins_Mossy.mat using Guid(0491e1d077b3ca643a27b77d56cc03b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44a07106fd7cc684e35e12178c430f73') in 0.095197 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 11
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/Flooded_Grounds/Content/Textures/PROP_Car1_MS.tif
-  artifactKey: Guid(fcbea5eeba999114ca758f91357d3913) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Content/Textures/PROP_Car1_MS.tif using Guid(fcbea5eeba999114ca758f91357d3913) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '512a69c944353f7b728d2c3972743254') in 0.028324 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Flooded_Grounds/Content/Materials/ATM_HaloRing.mat
-  artifactKey: Guid(5d9f771ba477048468247073bc8ad533) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Content/Materials/ATM_HaloRing.mat using Guid(5d9f771ba477048468247073bc8ad533) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81685267e3fe7a5c27b8c96d6ac5fb7f') in 0.078651 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Flooded_Grounds/Content/Materials/ATM_DustParticle.mat
-  artifactKey: Guid(43af489cd38ff014e8e9a7a8cea78a7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Content/Materials/ATM_DustParticle.mat using Guid(43af489cd38ff014e8e9a7a8cea78a7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4990477b4db782a23be68afe6288905') in 0.027308 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Flooded_Grounds/Content/Materials/BLD_BrickHouse1.mat
-  artifactKey: Guid(47922826feb9d49488af116a75bc66c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Content/Materials/BLD_BrickHouse1.mat using Guid(47922826feb9d49488af116a75bc66c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a75ea85706dcf32172fc12cc0d16c47e') in 0.080838 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/Flooded_Grounds/Content/Materials/BLD_Bridge1_LOD.mat
-  artifactKey: Guid(b39a473fb30ef8d44818ba4b9e2eebc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Content/Materials/BLD_Bridge1_LOD.mat using Guid(b39a473fb30ef8d44818ba4b9e2eebc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '418434d98d64584e7bec0498344f9e6f') in 0.055180 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 0.000046 seconds.
-  path: Assets/Flooded_Grounds/Content/Textures/PROP_Car1_AO.tif
-  artifactKey: Guid(c5621d59e16f0ce47bcd84076fa3a382) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Content/Textures/PROP_Car1_AO.tif using Guid(c5621d59e16f0ce47bcd84076fa3a382) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bddc00e526ade8e544dd83a16802174f') in 0.029742 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Flooded_Grounds/Content/Materials/BLD_Cabins.mat
-  artifactKey: Guid(2d96e79d3d44b824381f64be7765f5c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Content/Materials/BLD_Cabins.mat using Guid(2d96e79d3d44b824381f64be7765f5c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0520157929bf8b05787337a4be14aba') in 0.085329 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000049 seconds.
-  path: Assets/Flooded_Grounds/Content/Materials/NAT_Grass.mat
-  artifactKey: Guid(c6d8319ab8e4fb64494c4a9e3b97dc9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Content/Materials/NAT_Grass.mat using Guid(c6d8319ab8e4fb64494c4a9e3b97dc9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7d4158e8ad915647741bc6f845154a7') in 0.436026 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Flooded_Grounds/PostProcessing/Editor Resources/Monitors/HistogramCompute.compute
-  artifactKey: Guid(51b7e4b4448c98f4a849081110fd6212) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/PostProcessing/Editor Resources/Monitors/HistogramCompute.compute using Guid(51b7e4b4448c98f4a849081110fd6212) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e01ec8dc80bb38f42e287e066001a03') in 0.001839 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Flooded_Grounds/Content/Materials/PROP_Boat1_LOD.mat
-  artifactKey: Guid(1ace8c7ed9e38a342a68c011ae0945e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Content/Materials/PROP_Boat1_LOD.mat using Guid(1ace8c7ed9e38a342a68c011ae0945e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd97e4ff0a9cee5ffc91f504075413ae0') in 0.053515 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Flooded_Grounds/Content/Materials/PROP_Car1_Rusty.mat
-  artifactKey: Guid(a874786ec890ec242b71602e1a9134d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Content/Materials/PROP_Car1_Rusty.mat using Guid(a874786ec890ec242b71602e1a9134d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '897d73b65eac861e525531ed15f0783c') in 0.078227 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/Flooded_Grounds/Content/Materials/BLD_IndBuilding1.mat
-  artifactKey: Guid(94ec8f2f1cb846640aa49d49eba59de3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Content/Materials/BLD_IndBuilding1.mat using Guid(94ec8f2f1cb846640aa49d49eba59de3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b8851dd0e6e5015887c3d92e3cdba13') in 0.073908 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Flooded_Grounds/Content/Materials/PROP_ParkBench1.mat
-  artifactKey: Guid(c99ab68b85e64f947b9e704d96a4b3b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Content/Materials/PROP_ParkBench1.mat using Guid(c99ab68b85e64f947b9e704d96a4b3b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '281bd5568079fda286996249ff4e638a') in 0.050727 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 11
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/Flooded_Grounds/Content/Materials/PROP_SmallProps2.mat
-  artifactKey: Guid(9107b4df6f0b8d44092ad6117a1db3d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Content/Materials/PROP_SmallProps2.mat using Guid(9107b4df6f0b8d44092ad6117a1db3d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71b88be34ca203b4dfa66ea9c2fff13e') in 0.051674 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Flooded_Grounds/Content/Materials/HLP_BlockerCube.mat
-  artifactKey: Guid(8f6da883fc822d448a34f8decce1a838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Content/Materials/HLP_BlockerCube.mat using Guid(8f6da883fc822d448a34f8decce1a838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cdc70a1664cc3ff59a42d5c39f18e89') in 0.392043 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Flooded_Grounds/Content/Textures/PROP_Ship1_MS.tif
-  artifactKey: Guid(17e7c47e2acab94499b4cbab4bee07b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Content/Textures/PROP_Ship1_MS.tif using Guid(17e7c47e2acab94499b4cbab4bee07b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bf42b914ae0eaa132203e30f8a49b54') in 0.022496 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Flooded_Grounds/Content/Materials/PROP_RugsPaintings.mat
-  artifactKey: Guid(458f47f49073b3c4a9e939caa28cf48c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Content/Materials/PROP_RugsPaintings.mat using Guid(458f47f49073b3c4a9e939caa28cf48c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1707982f4fabfb95a6b9446ce69f9bf0') in 0.051262 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/Flooded_Grounds/Content/Materials/BLD_Villa2.mat
-  artifactKey: Guid(7c038e6fd547b3841a5a66ff479547e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Content/Materials/BLD_Villa2.mat using Guid(7c038e6fd547b3841a5a66ff479547e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25602b0cc80f1116504e41a404fca2a5') in 0.072646 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 0.000075 seconds.
-  path: Assets/Flooded_Grounds/Content/Materials/BLD_Church1.mat
-  artifactKey: Guid(67839f18cb008324fad823e901f01b33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Content/Materials/BLD_Church1.mat using Guid(67839f18cb008324fad823e901f01b33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d28abc6d946ddd172b540199362f604') in 0.073809 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Flooded_Grounds/Content/Materials/NAT_GroundMoss.mat
-  artifactKey: Guid(07fadee667c4d2b4d95d85c8eddf79a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Content/Materials/NAT_GroundMoss.mat using Guid(07fadee667c4d2b4d95d85c8eddf79a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fe1a30a5ce40a8abd2d56bf56326e88') in 0.359682 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Flooded_Grounds/Content/Meshes/mBackgrounds/BGR_Pipe_B.fbx
-  artifactKey: Guid(99ccd835683a68c4390956909c69bd60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Content/Meshes/mBackgrounds/BGR_Pipe_B.fbx using Guid(99ccd835683a68c4390956909c69bd60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '583d7c3f0b45dfc1a5ab2f5af7a10025') in 0.026047 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Flooded_Grounds/Content/Materials/PROP_Boat1.mat
-  artifactKey: Guid(e84fb6d56e433824fad1b71e95adaa05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Content/Materials/PROP_Boat1.mat using Guid(e84fb6d56e433824fad1b71e95adaa05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a5b0031d581070ebedf388a5995671b') in 0.090892 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 11
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Flooded_Grounds/Content/Materials/ATM_Leaf1.mat
-  artifactKey: Guid(e049ee4d8606de040a720fb72ae1d9f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Content/Materials/ATM_Leaf1.mat using Guid(e049ee4d8606de040a720fb72ae1d9f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71ff9108bf1a74c3555ade2675d4421c') in 0.069365 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Flooded_Grounds/Content/Textures/PROP_FlyingSaucer1_AO.tif
-  artifactKey: Guid(b0c724f0563e87b42b5f855fef070282) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Content/Textures/PROP_FlyingSaucer1_AO.tif using Guid(b0c724f0563e87b42b5f855fef070282) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0a16426b264fa1f863ecdd91d121835') in 0.020517 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Flooded_Grounds/Content/Materials/PROP_Cabinets1.mat
-  artifactKey: Guid(aa7b4c18d39db534ea65f1fc678cfd24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Content/Materials/PROP_Cabinets1.mat using Guid(aa7b4c18d39db534ea65f1fc678cfd24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ae77caac9a586e956ca9695d48e35d6') in 0.050350 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Flooded_Grounds/Content/Materials/PROP_Gravestones1.mat
-  artifactKey: Guid(e6f5834528a499646b75d68c40b11659) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Content/Materials/PROP_Gravestones1.mat using Guid(e6f5834528a499646b75d68c40b11659) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e716b1680185906bb7c0f42e2d6434ee') in 0.077830 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 11
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Flooded_Grounds/Content/Textures/DET_BrushMetal_N.tif
-  artifactKey: Guid(388b0d1a3a79bee4e88ecf3e75515867) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Content/Textures/DET_BrushMetal_N.tif using Guid(388b0d1a3a79bee4e88ecf3e75515867) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ffb32d2f91ac1ac4a1abccda2eb3c0e') in 0.018108 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Flooded_Grounds/Content/Materials/NAT_Bush1.mat
-  artifactKey: Guid(d26ea6fcc09300042a18c16ba1ac7887) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Content/Materials/NAT_Bush1.mat using Guid(d26ea6fcc09300042a18c16ba1ac7887) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2364b7b713caae837daa07b94cbaf63c') in 0.242233 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.000061 seconds.
-  path: Assets/Flooded_Grounds/Content/Textures/GR_Moss1_N.tif
-  artifactKey: Guid(3cc5713907ad64743bff036ba79ef950) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Content/Textures/GR_Moss1_N.tif using Guid(3cc5713907ad64743bff036ba79ef950) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '809ac1842fc24364e6f205c2ff387223') in 0.025864 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Flooded_Grounds/Content/Textures/PROP_Car1_N.tif
-  artifactKey: Guid(6fa141c84c783e443b399bacfc4bee1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Content/Textures/PROP_Car1_N.tif using Guid(6fa141c84c783e443b399bacfc4bee1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14117eb0e5a2ae495dd166e15b5d3e22') in 0.049716 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Flooded_Grounds/Content/Textures/PROP_FlyingSaucer1_A.tif
-  artifactKey: Guid(378ae71691af34046a56e6bd535c4744) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Content/Textures/PROP_FlyingSaucer1_A.tif using Guid(378ae71691af34046a56e6bd535c4744) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e27d2a9e8fd9ccae8532adf3283e765') in 0.022423 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/Flooded_Grounds/Content/Textures/PROP_Ship1_AO.tif
-  artifactKey: Guid(6186d6ff878b9ee45b72aa1d6261ad43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Content/Textures/PROP_Ship1_AO.tif using Guid(6186d6ff878b9ee45b72aa1d6261ad43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f4882eef90dcf35a4993c7e686b1861') in 0.021812 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Flooded_Grounds/Content/Shaders
-  artifactKey: Guid(d5206a84aefb8db4bb2d6769ddd24be3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Content/Shaders using Guid(d5206a84aefb8db4bb2d6769ddd24be3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3bffb147c55c67e3494747019c63563') in 0.000830 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/Flooded_Grounds/Content/Meshes/mBackgrounds/BGR_Pipe_A.fbx
-  artifactKey: Guid(fd9cd53bb7e310247bfef62bfd33b864) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Content/Meshes/mBackgrounds/BGR_Pipe_A.fbx using Guid(fd9cd53bb7e310247bfef62bfd33b864) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b962f5d521359d9c390beb0000506b3') in 0.023896 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Flooded_Grounds/Content/Textures/PROP_Ship1_A.tif
-  artifactKey: Guid(0db1ce58e489f9f4a8e35eec13e03bd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Content/Textures/PROP_Ship1_A.tif using Guid(0db1ce58e489f9f4a8e35eec13e03bd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5af2394b276aedb9bb4e96507b65eb9c') in 0.027537 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000082 seconds.
-  path: Assets/Flooded_Grounds/Content/Materials/PROP_SmallProps1.mat
-  artifactKey: Guid(fa3b418599852594c8d15fb4d9ce097e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Content/Materials/PROP_SmallProps1.mat using Guid(fa3b418599852594c8d15fb4d9ce097e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93e9e4c1e231c2f1d78b2c0d605fd5e8') in 0.055244 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Flooded_Grounds/Content/Trees/SrcMaterials
-  artifactKey: Guid(3cb6382af8e1f10418eb540e03456fa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Content/Trees/SrcMaterials using Guid(3cb6382af8e1f10418eb540e03456fa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea1ee9961686041d1e6d129a09c8627a') in 0.000970 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.000046 seconds.
-  path: Assets/Flooded_Grounds/PostProcessing/Editor Resources/UI/MotionBlendingIcon.png
-  artifactKey: Guid(c0fa58091049bd24394fa15b0b6d4c5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/PostProcessing/Editor Resources/UI/MotionBlendingIcon.png using Guid(c0fa58091049bd24394fa15b0b6d4c5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d5b4689576089b119f690182afff9a5') in 0.023309 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Flooded_Grounds/Content/Materials/NAT_CobbleRocks1.mat
-  artifactKey: Guid(eead33dff5f6ab2478ffa03b71e6e931) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Content/Materials/NAT_CobbleRocks1.mat using Guid(eead33dff5f6ab2478ffa03b71e6e931) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bee753af89fd8ae8eb4f1175640faa2') in 0.051171 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Flooded_Grounds/Content/Meshes/mBackgrounds/WaterPlane.fbx
-  artifactKey: Guid(c292a97ca5b44af428ac393c78fd8b14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Content/Meshes/mBackgrounds/WaterPlane.fbx using Guid(c292a97ca5b44af428ac393c78fd8b14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad68569e5fe72ffdbca6bd161eb1a568') in 0.021051 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Flooded_Grounds/Content/Materials/BLD_Rubble1.mat
-  artifactKey: Guid(aa892dd8e16aef04697a0b7649944fd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Content/Materials/BLD_Rubble1.mat using Guid(aa892dd8e16aef04697a0b7649944fd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a30d06d71b32bdd7008a89777fb591d') in 0.202102 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 5
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Flooded_Grounds/Content/Materials/BLD_WindowGlass1.mat
-  artifactKey: Guid(2b1f4e3c22d03d742a6e1e2e95a7e606) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Content/Materials/BLD_WindowGlass1.mat using Guid(2b1f4e3c22d03d742a6e1e2e95a7e606) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '975cff2e3b748fa182890d1dd5c09437') in 0.390408 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 5
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Flooded_Grounds/Content/Meshes/mBackgrounds/BGR_Factory_B.fbx
-  artifactKey: Guid(b6a7d46603b861549858925e3fbde8b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Content/Meshes/mBackgrounds/BGR_Factory_B.fbx using Guid(b6a7d46603b861549858925e3fbde8b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecd6c57d7f03c2b95f5ec50d5ac9345b') in 0.027024 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Flooded_Grounds/Content/Materials/HLP_Grid.mat
-  artifactKey: Guid(e7336c2c46c86f54b9ad60ce08b10dec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Content/Materials/HLP_Grid.mat using Guid(e7336c2c46c86f54b9ad60ce08b10dec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfda15948294c0e4fced7b159b79e198') in 0.023640 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Flooded_Grounds/Content/Materials/BLD_Structures1.mat
-  artifactKey: Guid(bece166f1833f674d9c16ea5184455ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Content/Materials/BLD_Structures1.mat using Guid(bece166f1833f674d9c16ea5184455ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06fefdd26483f9dc367538a3d1813e07') in 0.057141 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Flooded_Grounds/Content/Textures/PROP_Car1_A.tif
-  artifactKey: Guid(d0b9dedebea10974eb1b92e1ce9f2b05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Content/Textures/PROP_Car1_A.tif using Guid(d0b9dedebea10974eb1b92e1ce9f2b05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1d3aff5470aa75692d52bf51b8e14ce') in 0.027846 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Flooded_Grounds/Content/Textures
-  artifactKey: Guid(f65e913b798083a4a8e3e24e0ec815ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Content/Textures using Guid(f65e913b798083a4a8e3e24e0ec815ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebba68e74109ee2f76b336e9b4c9581d') in 0.000625 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.000155 seconds.
-  path: Assets/Flooded_Grounds/Content/Textures/PROP_Ship1_N.tif
-  artifactKey: Guid(95451f45b900f014284693710dc4c8d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Content/Textures/PROP_Ship1_N.tif using Guid(95451f45b900f014284693710dc4c8d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e10900270bd320a06a9bda43da40523') in 0.040912 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Flooded_Grounds/Content/Meshes/mBackgrounds/BGR_LargePipe_A.fbx
-  artifactKey: Guid(40477e487f4bf334cbc3a784a139828b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Content/Meshes/mBackgrounds/BGR_LargePipe_A.fbx using Guid(40477e487f4bf334cbc3a784a139828b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4d399f8399ff9e6fbe9d4511b544c90') in 0.022430 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/Flooded_Grounds/Content/Materials/BLD_IndBuilding1_LOD.mat
-  artifactKey: Guid(eb205ee712ebdad44846425da33e862d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Content/Materials/BLD_IndBuilding1_LOD.mat using Guid(eb205ee712ebdad44846425da33e862d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d3ee416902d99ff1357bb436ecec564') in 0.036832 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Flooded_Grounds/Content/Materials/PROP_FlyingSaucer.mat
-  artifactKey: Guid(46385e91996627c47a22d186d540d373) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Content/Materials/PROP_FlyingSaucer.mat using Guid(46385e91996627c47a22d186d540d373) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6093be6adc5a1c2d1d103c545b3a2b67') in 0.046859 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 11
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Flooded_Grounds/Content/Trees
-  artifactKey: Guid(e6410395bbd497946b75c7423e2c5971) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Content/Trees using Guid(e6410395bbd497946b75c7423e2c5971) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bd7316546ef302e592e791340a9b925') in 0.000700 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.000094 seconds.
-  path: Assets/Flooded_Grounds/Content/Materials/BLD_Bridge1.mat
-  artifactKey: Guid(5a13720bee0f5804d91f33010ed31391) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Content/Materials/BLD_Bridge1.mat using Guid(5a13720bee0f5804d91f33010ed31391) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88cf22f73de9211113d9ee2f3496f66d') in 0.090203 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 11
-========================================================================
-Received Import Request.
-  Time since last request: 0.000059 seconds.
-  path: Assets/Flooded_Grounds/Content/Materials/PROP_Ship1.mat
-  artifactKey: Guid(e2d702a05fd4a344bb9138058c882de9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Content/Materials/PROP_Ship1.mat using Guid(e2d702a05fd4a344bb9138058c882de9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55c1ef90e3ef665f12f6a8cae2684c23') in 0.087809 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 11
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Flooded_Grounds/Content/Trees/SrcTextures
-  artifactKey: Guid(2eca1abe9e549844ba1434ba7a1ab576) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Content/Trees/SrcTextures using Guid(2eca1abe9e549844ba1434ba7a1ab576) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '930c2d105b8f424206b3e76a04570673') in 0.001407 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.000092 seconds.
-  path: Assets/Flooded_Grounds/Content/Materials/BLD_Structures1_LOD.mat
-  artifactKey: Guid(4868299c5b3ac2848925175126b6d2fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Content/Materials/BLD_Structures1_LOD.mat using Guid(4868299c5b3ac2848925175126b6d2fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '492ee6af6a806dde81c2d81fbe70adb2') in 0.033557 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Flooded_Grounds/Content/Materials/PROP_FlyingSaucer_Mossy.mat
-  artifactKey: Guid(5f922f9d8a0eb6b49af35dc7edb53897) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Content/Materials/PROP_FlyingSaucer_Mossy.mat using Guid(5f922f9d8a0eb6b49af35dc7edb53897) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a0c5cda6f28478d3783653953a80a59') in 0.034528 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Flooded_Grounds/Content/Materials/PROP_Car1.mat
-  artifactKey: Guid(7133f30d0d44edd4fa2e40eb012e75ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Content/Materials/PROP_Car1.mat using Guid(7133f30d0d44edd4fa2e40eb012e75ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ab63db7b2b362aa6a9b1e2e6d41a59f') in 0.076975 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Flooded_Grounds/PostProcessing/Editor Resources/Monitors/VectorscopeCompute.compute
-  artifactKey: Guid(45de9ff58691e934c9810dc23de2ba50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/PostProcessing/Editor Resources/Monitors/VectorscopeCompute.compute using Guid(45de9ff58691e934c9810dc23de2ba50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '443d3f0a8d6103b1137c2edc48dad093') in 0.004862 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 2.193717 seconds.
-  path: Assets/Flooded_Grounds/Content/Trees/SrcPrefabs
-  artifactKey: Guid(d3851c9e132f17a4a95414fca590c2b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Content/Trees/SrcPrefabs using Guid(d3851c9e132f17a4a95414fca590c2b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '817edb82c35622865bf62356af7737e4') in 0.000611 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 8.895326 seconds.
-  path: Assets/Flooded_Grounds/Content/Animations
-  artifactKey: Guid(88d2ed1657dfc3041942d4a7e4abe7c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Content/Animations using Guid(88d2ed1657dfc3041942d4a7e4abe7c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '652577c4208ddb0aaf1f6a83f2bc5dcd') in 0.000759 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 1.082229 seconds.
-  path: Assets/Flooded_Grounds/Content/Animations/FlyingSaucer_Body_Ctrl.controller
-  artifactKey: Guid(0146707624aa9ec40a92615d304dd1f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Content/Animations/FlyingSaucer_Body_Ctrl.controller using Guid(0146707624aa9ec40a92615d304dd1f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61819f925477086efdcbd3834dd090ea') in 0.011335 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 4
-========================================================================
-Received Import Request.
-  Time since last request: 2.895867 seconds.
-  path: Assets/Flooded_Grounds/Content/Animations/Prop_Boat_A_Bobbing.anim
-  artifactKey: Guid(19ad7872f173c494a9d04d95a5b62b19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Content/Animations/Prop_Boat_A_Bobbing.anim using Guid(19ad7872f173c494a9d04d95a5b62b19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bd84511c4a431790267e3f1ed29e01b') in 0.001761 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.239231 seconds.
-  path: Assets/Flooded_Grounds/Content/Animations/Prop_Boat_A_Bobbing_Ctrl.controller
-  artifactKey: Guid(4787a8630f4502f4d83e467e907b2359) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Content/Animations/Prop_Boat_A_Bobbing_Ctrl.controller using Guid(4787a8630f4502f4d83e467e907b2359) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0dc5dbf98d26f20196a5e21ca0cedd4a') in 0.003439 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 4
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  5.161 seconds
-Refreshing native plugins compatible for Editor in 8.68 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.355 seconds
-Domain Reload Profiling: 6489ms
-	BeginReloadAssembly (270ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (6ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (40ms)
-	RebuildCommonClasses (194ms)
-	RebuildNativeTypeToScriptingClass (91ms)
-	initialDomainReloadingComplete (142ms)
-	LoadAllAssembliesAndSetupDomain (4435ms)
-		LoadAssemblies (4578ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (43ms)
-			TypeCache.Refresh (23ms)
-				TypeCache.ScanAssembly (10ms)
-			ScanForSourceGeneratedMonoScriptInfo (12ms)
+		AnalyzeDomain (209ms)
+			TypeCache.Refresh (184ms)
+				TypeCache.ScanAssembly (169ms)
+			ScanForSourceGeneratedMonoScriptInfo (17ms)
 			ResolveRequiredComponents (7ms)
-	FinalizeReload (1356ms)
+	FinalizeReload (738ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (545ms)
+		SetupLoadedEditorAssemblies (552ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (10ms)
+			InitializePlatformSupportModulesInManaged (5ms)
 			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (84ms)
-			ProcessInitializeOnLoadAttributes (404ms)
-			ProcessInitializeOnLoadMethodAttributes (24ms)
-			AfterProcessingInitializeOnLoad (19ms)
+			BeforeProcessingInitializeOnLoad (64ms)
+			ProcessInitializeOnLoadAttributes (449ms)
+			ProcessInitializeOnLoadMethodAttributes (27ms)
+			AfterProcessingInitializeOnLoad (3ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (8ms)
-Refreshing native plugins compatible for Editor in 14.17 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 5.94 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3375 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 106 unused Assets / (7.3 MB). Loaded Objects now: 3858.
-Memory consumption went from 163.5 MB to 156.2 MB.
-Total: 7.658200 ms (FindLiveObjects: 0.361100 ms CreateObjectMapping: 0.297000 ms MarkObjects: 3.776200 ms  DeleteObjects: 3.222500 ms)
+Unloading 3404 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 62 unused Assets / (1.9 MB). Loaded Objects now: 3870.
+Memory consumption went from 162.8 MB to 160.9 MB.
+Total: 4.360800 ms (FindLiveObjects: 0.335900 ms CreateObjectMapping: 1.024500 ms MarkObjects: 2.512800 ms  DeleteObjects: 0.486800 ms)
 
-Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -1150,1049 +180,266 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 370.361786 seconds.
-  path: Assets/Flooded_Grounds/Content/Textures/ATM_DustPartice1_AS.tif
-  artifactKey: Guid(4ef6a6bc343d82749b9a5b849f8db1a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Content/Textures/ATM_DustPartice1_AS.tif using Guid(4ef6a6bc343d82749b9a5b849f8db1a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cafcb4c89311f78f2f9d0b6b6952f60') in 0.058121 seconds
+  Time since last request: 7063.167846 seconds.
+  path: Assets/New Terrain.asset
+  artifactKey: Guid(f1f05e39a0f824b45aa4e1f17f6a9c1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Terrain.asset using Guid(f1f05e39a0f824b45aa4e1f17f6a9c1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ebf13f9172e8493832f3f1323d73e8e') in 0.066183 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Mapa_Y_Escenas/Other_props/Palets/Bags_on_pallet_v1/Source/Bags_on_pallet_v1.tga
-  artifactKey: Guid(eb72cde9ec273784e8551ca6ea486006) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mapa_Y_Escenas/Other_props/Palets/Bags_on_pallet_v1/Source/Bags_on_pallet_v1.tga using Guid(eb72cde9ec273784e8551ca6ea486006) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f2fdefad8650c57f45154dd23b8a0c9') in 0.043192 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000099 seconds.
-  path: Assets/Flooded_Grounds/Content/Textures/ATM_Leaf1_AS.tif
-  artifactKey: Guid(613c9ad9dfc6b484697801f5268522ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Content/Textures/ATM_Leaf1_AS.tif using Guid(613c9ad9dfc6b484697801f5268522ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '575669dabe8c628eebf03f9502fb32d1') in 0.011871 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000087 seconds.
-  path: Assets/Mapa_Y_Escenas/Barrels/Barrel_v3/Source/Barrel_v3.tga
-  artifactKey: Guid(ab642a6f4431c294dad548240c4df51f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mapa_Y_Escenas/Barrels/Barrel_v3/Source/Barrel_v3.tga using Guid(ab642a6f4431c294dad548240c4df51f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13387ec6be16c3f667fd8e7ad572d72c') in 0.014493 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Mapa_Y_Escenas/Barrels/Barrel_v2/Source/Barrel_v2.tga
-  artifactKey: Guid(c6d4a352c819c824b9aa19a3a9b428d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mapa_Y_Escenas/Barrels/Barrel_v2/Source/Barrel_v2.tga using Guid(c6d4a352c819c824b9aa19a3a9b428d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57bf31e4d8ab36a7a0b8da5298544840') in 0.015121 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000089 seconds.
-  path: Assets/Flooded_Grounds/Content/Textures/BGR_Ocean_D.tif
-  artifactKey: Guid(08fee7c705165d84294fc4eb7c8a3a10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Content/Textures/BGR_Ocean_D.tif using Guid(08fee7c705165d84294fc4eb7c8a3a10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e0c753afdd84b906fe4cbc33ded9ee0') in 0.014800 seconds
+  Time since last request: 0.000024 seconds.
+  path: Assets/NewLayer.terrainlayer
+  artifactKey: Guid(70db179fbf457154f846c718ab36e8f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewLayer.terrainlayer using Guid(70db179fbf457154f846c718ab36e8f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60e155c07f7f547f806d479c3eb3b3dd') in 0.049900 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
   Time since last request: 0.000018 seconds.
-  path: Assets/Flooded_Grounds/Content/Textures/ATM_ExhaustParticle1_AS.tif
-  artifactKey: Guid(ce844cdb57c71eb4d9ef480d8691ec1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Content/Textures/ATM_ExhaustParticle1_AS.tif using Guid(ce844cdb57c71eb4d9ef480d8691ec1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89ca09023cd3606ed7d2d423bd5d716d') in 0.019224 seconds
+  path: Assets/NewLayer 2.terrainlayer
+  artifactKey: Guid(01f3e0ce318162c41814318af94bc365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewLayer 2.terrainlayer using Guid(01f3e0ce318162c41814318af94bc365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2987c3f28cb9418ed1e014f03002e3a') in 0.033406 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/NewLayer 1.terrainlayer
+  artifactKey: Guid(441e353f1b90eac4bb472933ef55c978) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewLayer 1.terrainlayer using Guid(441e353f1b90eac4bb472933ef55c978) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3aecedf0cf2d286347761db2ecc6f39') in 0.031815 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000088 seconds.
-  path: Assets/Mapa_Y_Escenas/Barrels/Barrel_v1/Source/Barrel_v1.tga
-  artifactKey: Guid(d432d54d3a70da442896cc2f394cd34f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mapa_Y_Escenas/Barrels/Barrel_v1/Source/Barrel_v1.tga using Guid(d432d54d3a70da442896cc2f394cd34f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a23f3fc6fab57cdcaac320b8eb49415c') in 0.048861 seconds
+  Time since last request: 46.772138 seconds.
+  path: Assets/Flooded_Grounds
+  artifactKey: Guid(8b8cdbb1f92847a48b2f28f2b7e52b1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flooded_Grounds using Guid(8b8cdbb1f92847a48b2f28f2b7e52b1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7206eae2c9c39ea340ed93987aadb2b9') in 0.000628 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 3.389315 seconds.
-  path: Assets/Flooded_Grounds/Content/Textures/BGR_Ocean_H.tif
-  artifactKey: Guid(80dccd4a38b2fe2449a29dbfb3c058fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Content/Textures/BGR_Ocean_H.tif using Guid(80dccd4a38b2fe2449a29dbfb3c058fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8900ab074c7fae3e33e4bfcfb24f2563') in 0.017365 seconds
+  Time since last request: 1.987483 seconds.
+  path: Assets/Flooded_Grounds/Content
+  artifactKey: Guid(2e150d6ce3d33f84295eac3b1ec2f056) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flooded_Grounds/Content using Guid(2e150d6ce3d33f84295eac3b1ec2f056) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64e35c863821574b40d96ff09726b594') in 0.000504 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Flooded_Grounds/Content/Textures/BGR_Ocean_N.tif
-  artifactKey: Guid(74423cbef99ad234e9191594e6c27a06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Content/Textures/BGR_Ocean_N.tif using Guid(74423cbef99ad234e9191594e6c27a06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da9437ad4310fcbcb185cb02fe3c31ec') in 0.024543 seconds
+  Time since last request: 0.719564 seconds.
+  path: Assets/Flooded_Grounds/Content/Animations
+  artifactKey: Guid(88d2ed1657dfc3041942d4a7e4abe7c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flooded_Grounds/Content/Animations using Guid(88d2ed1657dfc3041942d4a7e4abe7c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cccb89721442e499c632670bfeadc432') in 0.000453 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Flooded_Grounds/Content/Textures/BLD_Bridge1_N.tif
-  artifactKey: Guid(0a56a508c36cb464ea77f74cf7219c56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Content/Textures/BLD_Bridge1_N.tif using Guid(0a56a508c36cb464ea77f74cf7219c56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f9ef2d3afdd4078221962ae72fe9575') in 0.037736 seconds
+  Time since last request: 6.941211 seconds.
+  path: Assets/_TerrainAutoUpgrade
+  artifactKey: Guid(3d92f3abab6feae4a9c703d7c99397f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_TerrainAutoUpgrade using Guid(3d92f3abab6feae4a9c703d7c99397f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d69dd92fa5f9b245bef02c41583d4e5') in 0.000553 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Flooded_Grounds/Content/Textures/BLD_Church1_A.tif
-  artifactKey: Guid(2e4ccbbb3c4ba6b4d906856d15de31d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Content/Textures/BLD_Church1_A.tif using Guid(2e4ccbbb3c4ba6b4d906856d15de31d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f458f524bf01f1e5c92abb7d32b038c') in 0.028614 seconds
+  Time since last request: 0.059276 seconds.
+  path: Assets/_TerrainAutoUpgrade/layer_GR_Asphalt1_ASGR_Asphalt1_Nd261c09ae55ba1e3.terrainlayer
+  artifactKey: Guid(05ba5d53cfca95942a3d9e5d8fec971c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_TerrainAutoUpgrade/layer_GR_Asphalt1_ASGR_Asphalt1_Nd261c09ae55ba1e3.terrainlayer using Guid(05ba5d53cfca95942a3d9e5d8fec971c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a417802b49ca43c0f35f59e058f2ee55') in 0.021184 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Flooded_Grounds/Content/Textures/BLD_Cabins1_N.tif
-  artifactKey: Guid(6aca893bbdb380e40be322de5b27e134) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Content/Textures/BLD_Cabins1_N.tif using Guid(6aca893bbdb380e40be322de5b27e134) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9156b1407656396285e78e4af7e1c07a') in 0.039040 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/Flooded_Grounds/Content/Textures/BLD_IndBuilding1_MS.tif
-  artifactKey: Guid(d1f0c0d13b28f7942b930d9dcd3307ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Content/Textures/BLD_IndBuilding1_MS.tif using Guid(d1f0c0d13b28f7942b930d9dcd3307ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71fdfac0b988487890f2556712f375b5') in 0.031734 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/Flooded_Grounds/Content/Textures/BLD_Cabins1_AO.tif
-  artifactKey: Guid(ca00df4281acdd843a50d3e3456368fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Content/Textures/BLD_Cabins1_AO.tif using Guid(ca00df4281acdd843a50d3e3456368fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '949e732db84b234edf5080a6f3889319') in 0.016742 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Flooded_Grounds/Content/Textures/BLD_Villa2_N.tif
-  artifactKey: Guid(9320e79a663f0d64885899f1fb85df7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Content/Textures/BLD_Villa2_N.tif using Guid(9320e79a663f0d64885899f1fb85df7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acae9fb980b63aeeddc0133806482195') in 0.040934 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Flooded_Grounds/Content/Textures/BLD_Villa2_MS.tif
-  artifactKey: Guid(5673fd1bd7b7edc42b6d0ab328eb8d4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Content/Textures/BLD_Villa2_MS.tif using Guid(5673fd1bd7b7edc42b6d0ab328eb8d4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a3eb995e98a2c8753031a6b3a24de40') in 0.025703 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Flooded_Grounds/Content/Textures/BLD_WindowGlass1_A.tif
-  artifactKey: Guid(ec04c678fb72c1b4fb5f0cc7ae4cc117) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Content/Textures/BLD_WindowGlass1_A.tif using Guid(ec04c678fb72c1b4fb5f0cc7ae4cc117) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e4e451aba080e034fe1d50a16b653c7') in 0.016012 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+Number of asset objects unloaded after import = 4
 ========================================================================
 Received Import Request.
   Time since last request: 0.000016 seconds.
-  path: Assets/Flooded_Grounds/Content/Textures/BGR_RefCube1.tif
-  artifactKey: Guid(3b5eaa969aa89fb45b025e2ff7d7695a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Content/Textures/BGR_RefCube1.tif using Guid(3b5eaa969aa89fb45b025e2ff7d7695a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69b637b2107c59bb09d5368725ca7c08') in 0.192331 seconds
+  path: Assets/_TerrainAutoUpgrade/layer_GR_Dirt1_ASGR_Dirt1_N3d1cca0d6d0e9938.terrainlayer
+  artifactKey: Guid(8d2cbf0e5ea176149adc04132052ba39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_TerrainAutoUpgrade/layer_GR_Dirt1_ASGR_Dirt1_N3d1cca0d6d0e9938.terrainlayer using Guid(8d2cbf0e5ea176149adc04132052ba39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdb25280661c96eb0e714e9f4d0e90c9') in 0.017001 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/_TerrainAutoUpgrade/layer_GR_Moss1_ASGR_Moss1_N3d1cca0d6d0e9938.terrainlayer
+  artifactKey: Guid(3b7ccd97d0f2a06459915863b267d000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_TerrainAutoUpgrade/layer_GR_Moss1_ASGR_Moss1_N3d1cca0d6d0e9938.terrainlayer using Guid(3b7ccd97d0f2a06459915863b267d000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07a88d80fc5d9cf27b1ff9b4486a1723') in 0.013456 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 9.267115 seconds.
+  path: Assets/Flooded_Grounds/PostProcessing
+  artifactKey: Guid(86c33bd30cdaf2544ae2e5e9d9ebdb89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flooded_Grounds/PostProcessing using Guid(86c33bd30cdaf2544ae2e5e9d9ebdb89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a59a48ee41e892bf97c0e996f029d95a') in 0.000720 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.323849 seconds.
+  path: Assets/Flooded_Grounds/PostProcessing/Utilities
+  artifactKey: Guid(478d405e757b044f2bd9c4b777026b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flooded_Grounds/PostProcessing/Utilities using Guid(478d405e757b044f2bd9c4b777026b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fd5022a4b8b3d3b21b20db568c1df49') in 0.001714 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.991185 seconds.
+  path: Assets/Flooded_Grounds/PostProcessing/Utilities/CustomMotionTexture
+  artifactKey: Guid(5b271143f6e834d6bb7a4309f2c781f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flooded_Grounds/PostProcessing/Utilities/CustomMotionTexture using Guid(5b271143f6e834d6bb7a4309f2c781f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94c7c3d9c25d9cfe01e323cc2eb99ca4') in 0.000565 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.062192 seconds.
+  path: Assets/Flooded_Grounds/PostProcessing/Utilities/CustomMotionTexture/CustomMotionVectorDebugProfile.asset
+  artifactKey: Guid(d982e879ff67b4d3fb6522d08c3cd5af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flooded_Grounds/PostProcessing/Utilities/CustomMotionTexture/CustomMotionVectorDebugProfile.asset using Guid(d982e879ff67b4d3fb6522d08c3cd5af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8928290d962fb820a3e4b35ce83b411c') in 0.005665 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Flooded_Grounds/Content/Textures/BLD_Structures1_MS.tif
-  artifactKey: Guid(ffebb5e12a0e7bc4f8538c69b1a21684) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Content/Textures/BLD_Structures1_MS.tif using Guid(ffebb5e12a0e7bc4f8538c69b1a21684) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4abc8804e67f102a4dc499aa1a146a0') in 0.021593 seconds
+  Time since last request: 1.220304 seconds.
+  path: Assets/Flooded_Grounds/PostProcessing/Utilities/CustomMotionTexture/Materials
+  artifactKey: Guid(c4b2008f2662a41e587c4351609053c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flooded_Grounds/PostProcessing/Utilities/CustomMotionTexture/Materials using Guid(c4b2008f2662a41e587c4351609053c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6494b20cd6bdf33133b2ef85dbf11019') in 0.000467 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/Flooded_Grounds/Content/Textures/BLD_Church1_N.tif
-  artifactKey: Guid(3593e017fe71de94e9ad18791038fd6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Content/Textures/BLD_Church1_N.tif using Guid(3593e017fe71de94e9ad18791038fd6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08eb1736e7c9d559a1bcedb60d987350') in 0.035937 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Flooded_Grounds/Content/Textures/BLD_Structures2_N.tif
-  artifactKey: Guid(d51e916c844b644469451ac4a8daf24e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Content/Textures/BLD_Structures2_N.tif using Guid(d51e916c844b644469451ac4a8daf24e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6006ec3acf862c724299530f17db049e') in 0.038541 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Flooded_Grounds/Content/Textures/BLD_WindowGlass1_MS.tif
-  artifactKey: Guid(cda6643c125264d49beaa658d2048eac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Content/Textures/BLD_WindowGlass1_MS.tif using Guid(cda6643c125264d49beaa658d2048eac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b18182c69f9d5321c8f269d9b2768f76') in 0.006168 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Flooded_Grounds/Content/Textures/BLD_Villa1_AO.tif
-  artifactKey: Guid(ba402f1b7239e624694502c95edce603) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Content/Textures/BLD_Villa1_AO.tif using Guid(ba402f1b7239e624694502c95edce603) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af137d9fb7ff7eed91e9581a4c6ce810') in 0.012046 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000083 seconds.
-  path: Assets/Flooded_Grounds/Content/Textures/BLD_Structures2_AO.tif
-  artifactKey: Guid(c3aaae17f2cfd734f89aca122e477a02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Content/Textures/BLD_Structures2_AO.tif using Guid(c3aaae17f2cfd734f89aca122e477a02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9acca00c155e7959bc7e3086741938c6') in 0.011883 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Flooded_Grounds/Content/Textures/BLD_Cabins1_A.tif
-  artifactKey: Guid(862297ff71c7f3e479996c3c8f21b942) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Content/Textures/BLD_Cabins1_A.tif using Guid(862297ff71c7f3e479996c3c8f21b942) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1016567b6581f9b47e8028322317f224') in 0.018496 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000061 seconds.
-  path: Assets/Flooded_Grounds/Content/Textures/BLD_Structures2_A.tif
-  artifactKey: Guid(8ce9e8e0e51197740b72b5431107c730) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Content/Textures/BLD_Structures2_A.tif using Guid(8ce9e8e0e51197740b72b5431107c730) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43417eab9a4ecd8cb9504e2288220869') in 0.018077 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Mapa_Y_Escenas/Containers/Cargo_container_v1/Source/Cargo_container_v1.tga
-  artifactKey: Guid(b40ffba02b740d0449a254f7d2eb87af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mapa_Y_Escenas/Containers/Cargo_container_v1/Source/Cargo_container_v1.tga using Guid(b40ffba02b740d0449a254f7d2eb87af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '936de7795149188e00bfc0ea96f69df5') in 0.097907 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000069 seconds.
-  path: Assets/Flooded_Grounds/Content/Textures/BLD_Structures2_MS.tif
-  artifactKey: Guid(890b79cc78c624d4a81e50a1d35c1332) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Content/Textures/BLD_Structures2_MS.tif using Guid(890b79cc78c624d4a81e50a1d35c1332) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '849c305005c669ffc9fbacd8373eb780') in 0.025493 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000099 seconds.
-  path: Assets/Flooded_Grounds/Content/Textures/BLD_Doors1_MS.tif
-  artifactKey: Guid(d5cc8eaa1e44ec14d86470c81aa2e1a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Content/Textures/BLD_Doors1_MS.tif using Guid(d5cc8eaa1e44ec14d86470c81aa2e1a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4a3e2a7a4b931ce9a3fbf35725c33e9') in 0.013150 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000085 seconds.
-  path: Assets/personajes/Protagonista/The Boss.fbm/Boss_normal.png
-  artifactKey: Guid(223545653b4adce42bea2b5c499f10cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/personajes/Protagonista/The Boss.fbm/Boss_normal.png using Guid(223545653b4adce42bea2b5c499f10cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f45d34b0685b0dca7005adeaba3706ba') in 0.056612 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Mapa_Y_Escenas/Containers/Cargo_container_v1/Source/Cargo_container_v2.tga
-  artifactKey: Guid(0d05f81e33820aa4a8a400b8b8b696d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mapa_Y_Escenas/Containers/Cargo_container_v1/Source/Cargo_container_v2.tga using Guid(0d05f81e33820aa4a8a400b8b8b696d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5d652479df4e3ac9685d58f33598cad') in 0.142364 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Mapa_Y_Escenas/Containers/Cargo_container_v1/Source/Cargo_container_v3.tga
-  artifactKey: Guid(2b5271b70faa82948a2f1b3e45d5c40e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mapa_Y_Escenas/Containers/Cargo_container_v1/Source/Cargo_container_v3.tga using Guid(2b5271b70faa82948a2f1b3e45d5c40e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b2262f08e0d21c74f3b842384488f7c') in 0.070666 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/personajes/Protagonista/Boss_diffuse.png
-  artifactKey: Guid(35fc1adba1fad0643a91c08f96b24fba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/personajes/Protagonista/Boss_diffuse.png using Guid(35fc1adba1fad0643a91c08f96b24fba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a89b8bdb39e927bf7a1e3baf58e15a0e') in 0.061292 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Explosiones/Textures/burn_ramp_gradient.png
-  artifactKey: Guid(f7d186cbd21bb124bb1b3d3eb8ae1cdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Explosiones/Textures/burn_ramp_gradient.png using Guid(f7d186cbd21bb124bb1b3d3eb8ae1cdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59bb97878e1dc07a9dfee98a6b4e7955') in 0.011376 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Flooded_Grounds/Content/Textures/BLD_Villa2_A.tif
-  artifactKey: Guid(64763b599f4ac8c438a7b286e41ad67e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Content/Textures/BLD_Villa2_A.tif using Guid(64763b599f4ac8c438a7b286e41ad67e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '974c46d302949e487d8555d4c8f58816') in 0.018374 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Flooded_Grounds/Content/Textures/BLD_Villa1_MS.tif
-  artifactKey: Guid(6f292103627590a4287eb92828dfe7f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Content/Textures/BLD_Villa1_MS.tif using Guid(6f292103627590a4287eb92828dfe7f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e161c7c60b0224926967c2927ab87e0e') in 0.016089 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000108 seconds.
-  path: Assets/Explosiones/Textures/cloud_flame_loop2.psd
-  artifactKey: Guid(9e195cc98c8f76f449b85cebf877ab67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Explosiones/Textures/cloud_flame_loop2.psd using Guid(9e195cc98c8f76f449b85cebf877ab67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf15f8901c364aef73ef8739ea949415') in 0.012536 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000089 seconds.
-  path: Assets/personajes/Protagonista/Boss_normal.png
-  artifactKey: Guid(91bfd140b68f376408c03b3dd508f344) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/personajes/Protagonista/Boss_normal.png using Guid(91bfd140b68f376408c03b3dd508f344) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1c189a53bd98d5ff83b3cb340bdcae4') in 0.062836 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000103 seconds.
-  path: Assets/Flooded_Grounds/Content/Textures/BLD_Doors1_A.tif
-  artifactKey: Guid(966cf6398289d054592e01c08d5880f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Content/Textures/BLD_Doors1_A.tif using Guid(966cf6398289d054592e01c08d5880f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75ab82f94d603a3da65b9726edb90730') in 0.021851 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000095 seconds.
-  path: Assets/Explosiones/Textures/cloud_loop.bmp
-  artifactKey: Guid(808d653919d8945409870a824173d8db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Explosiones/Textures/cloud_loop.bmp using Guid(808d653919d8945409870a824173d8db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b82a9f66da7e4fae7335b3de608fdede') in 0.013118 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Flooded_Grounds/Content/Textures/BLD_IndBuilding1_N.tif
-  artifactKey: Guid(7b3e37e57f656034b9058de7d72c851f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Content/Textures/BLD_IndBuilding1_N.tif using Guid(7b3e37e57f656034b9058de7d72c851f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9571f5d95e432715be74072ed7b96ebe') in 0.029778 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Flooded_Grounds/Content/Textures/BLD_Church1_MS.tif
-  artifactKey: Guid(c3a0fe73b1e00a747b8c28bcf0af0e55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Content/Textures/BLD_Church1_MS.tif using Guid(c3a0fe73b1e00a747b8c28bcf0af0e55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8ebbf886fa2a092d8103ae3892c2ae6') in 0.015178 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000112 seconds.
-  path: Assets/Flooded_Grounds/Content/Textures/BLD_IndBuilding1_A.tif
-  artifactKey: Guid(a6d89f2e60e5a1a42997166681410908) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Content/Textures/BLD_IndBuilding1_A.tif using Guid(a6d89f2e60e5a1a42997166681410908) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '770ba425790714c0ddb74fbe13fca2d5') in 0.019426 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000048 seconds.
-  path: Assets/personajes/Protagonista/The Boss.fbm/Boss_specular.png
-  artifactKey: Guid(f179173fdf235b1429cb007aec1cb36d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/personajes/Protagonista/The Boss.fbm/Boss_specular.png using Guid(f179173fdf235b1429cb007aec1cb36d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb6898d4b64edf4e5050522061e88a58') in 0.185869 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Mapa_Y_Escenas/Fences/Concrete_fences/Concrete_fence_v1/Source/Concrete_fence_v1.tga
-  artifactKey: Guid(bacba518b54415a4bbce381fb34fce65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mapa_Y_Escenas/Fences/Concrete_fences/Concrete_fence_v1/Source/Concrete_fence_v1.tga using Guid(bacba518b54415a4bbce381fb34fce65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d4fd202a70dfa0f914a5a5eb4e18ecb') in 0.019415 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000088 seconds.
-  path: Assets/Mapa_Y_Escenas/Fences/Concrete_fences/Concrete_fence_v2/Source/Concrete_fence_v2.tga
-  artifactKey: Guid(5321f19e8c384e6438f1b372bf5281ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mapa_Y_Escenas/Fences/Concrete_fences/Concrete_fence_v2/Source/Concrete_fence_v2.tga using Guid(5321f19e8c384e6438f1b372bf5281ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '423a8270ade4a40d1a394528db59837c') in 0.039998 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Flooded_Grounds/Content/Textures/BGR_Sky1.tif
-  artifactKey: Guid(8888999060e5b7f4399b58f65d814847) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Content/Textures/BGR_Sky1.tif using Guid(8888999060e5b7f4399b58f65d814847) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a959beb47a47fc6258b61bd65c202a87') in 0.023442 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Explosiones/Textures/checker.bmp
-  artifactKey: Guid(4602f5e8f3eb16f4b92474190bd56922) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Explosiones/Textures/checker.bmp using Guid(4602f5e8f3eb16f4b92474190bd56922) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e394dd83b72ae8124b67a5d39226deec') in 0.012046 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Flooded_Grounds/Content/Textures/BLD_IndBuilding1_AO.tif
-  artifactKey: Guid(f40d96e16f517974382853481556fd83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Content/Textures/BLD_IndBuilding1_AO.tif using Guid(f40d96e16f517974382853481556fd83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fcf2a30be30f354609dd9144886bfed') in 0.019459 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Flooded_Grounds/Content/Textures/BLD_Structures1_AO.tif
-  artifactKey: Guid(9e78671d65c17ba4bb48fccc1aef0370) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Content/Textures/BLD_Structures1_AO.tif using Guid(9e78671d65c17ba4bb48fccc1aef0370) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99e771e016d8974ce5fc1659ee20c716') in 0.015764 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Explosiones/Textures/cloud_alpha.png
-  artifactKey: Guid(cdc995167d46a4c4383e12725cf124a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Explosiones/Textures/cloud_alpha.png using Guid(cdc995167d46a4c4383e12725cf124a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d87ec1f25d4dd569018845995c522e5') in 0.015975 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Flooded_Grounds/Content/Textures/BLD_Villa1_N.tif
-  artifactKey: Guid(4a2dca3a6b2272349b0c4239f2a4060a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Content/Textures/BLD_Villa1_N.tif using Guid(4a2dca3a6b2272349b0c4239f2a4060a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c497045d7b982082f6f1f0c0a8e93c6b') in 0.043560 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/personajes/Protagonista/The Boss.fbm/Boss_diffuse.png
-  artifactKey: Guid(c933edb72977e134e9ad4e18692f2547) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/personajes/Protagonista/The Boss.fbm/Boss_diffuse.png using Guid(c933edb72977e134e9ad4e18692f2547) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a21d09ba75e226a27d9a778b71ccb7b7') in 0.018029 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Flooded_Grounds/Content/Textures/BLD_Structures1_N.tif
-  artifactKey: Guid(4df14e6e8ed614b4381dffd191db71db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Content/Textures/BLD_Structures1_N.tif using Guid(4df14e6e8ed614b4381dffd191db71db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0510b536a03ee34f2d7b169fd7cf6112') in 0.051423 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000062 seconds.
-  path: Assets/Explosiones/Textures/cloud_flame_loop.png
-  artifactKey: Guid(16ecde229fb6da24db97f7d12dfa4716) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Explosiones/Textures/cloud_flame_loop.png using Guid(16ecde229fb6da24db97f7d12dfa4716) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13adf875f495b782ea43a0519d185c05') in 0.016996 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Flooded_Grounds/Content/Textures/BLD_Doors1_AO.tif
-  artifactKey: Guid(cacc835fbdacf6a4abc2a2231b0bb8b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Content/Textures/BLD_Doors1_AO.tif using Guid(cacc835fbdacf6a4abc2a2231b0bb8b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22688a0072fdd05b7794e0d19a93f6c8') in 0.016638 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Flooded_Grounds/Content/Textures/BLD_Rubble1_A.tif
-  artifactKey: Guid(6626f7396393484488cdc76763fb7382) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Content/Textures/BLD_Rubble1_A.tif using Guid(6626f7396393484488cdc76763fb7382) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4213353aa099ae1b6e14da9c83994c8e') in 0.020303 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Flooded_Grounds/Content/Textures/BLD_Villa1_A.tif
-  artifactKey: Guid(556d3cdc57e19ff4182da5b6b8060d3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Content/Textures/BLD_Villa1_A.tif using Guid(556d3cdc57e19ff4182da5b6b8060d3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fef567e5e49898c9a6094e58518a33db') in 0.026002 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Explosiones/Textures/cloud_flame.psd
-  artifactKey: Guid(5f5ba243512219847b0078f0c27e7239) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Explosiones/Textures/cloud_flame.psd using Guid(5f5ba243512219847b0078f0c27e7239) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c148a684798f2489288659c014844df4') in 0.066136 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Explosiones/Textures/cloud_flame_single.psd
-  artifactKey: Guid(5ff2384436281dd42a438ba7d6ae71f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Explosiones/Textures/cloud_flame_single.psd using Guid(5ff2384436281dd42a438ba7d6ae71f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9311184e6a350aa4657f0beba61e3cf7') in 0.015436 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Flooded_Grounds/Content/Textures/BLD_Bridge1_MS.tif
-  artifactKey: Guid(936f4cd27ea43ec44b6539ca8a1dadad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Content/Textures/BLD_Bridge1_MS.tif using Guid(936f4cd27ea43ec44b6539ca8a1dadad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09e5bc147eff21a2d1416218fb2b9a43') in 0.022600 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Explosiones/Textures/cloud_4_variants.psd
-  artifactKey: Guid(c4b63316c1599924298ae931e54a3dc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Explosiones/Textures/cloud_4_variants.psd using Guid(c4b63316c1599924298ae931e54a3dc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ca84ab0e07fb191d513cef26f376c0b') in 0.063626 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Flooded_Grounds/Content/Textures/BLD_Doors1_N.tif
-  artifactKey: Guid(005e0597e4d08ef4f9a7db961e7e973f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Content/Textures/BLD_Doors1_N.tif using Guid(005e0597e4d08ef4f9a7db961e7e973f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39d38c5a456c36d5974e58c36fae9461') in 0.042758 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Flooded_Grounds/Content/Textures/BLD_Bridge1_AO.tif
-  artifactKey: Guid(371d5bd6e6ed4f4478110dfe1c66db56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Content/Textures/BLD_Bridge1_AO.tif using Guid(371d5bd6e6ed4f4478110dfe1c66db56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '334bbe34cbd3ab12977f66cec8f7b8ec') in 0.016997 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Flooded_Grounds/Content/Textures/BLD_Cabins1_MS.tif
-  artifactKey: Guid(dfd14658241371f48956461682c52cca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Content/Textures/BLD_Cabins1_MS.tif using Guid(dfd14658241371f48956461682c52cca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '031217b8501fe657ba0bdf91ca906b5c') in 0.015869 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Flooded_Grounds/Content/Textures/BLD_Church1_AO.tif
-  artifactKey: Guid(ae56e4ed2076beb43901de13ca96afd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Content/Textures/BLD_Church1_AO.tif using Guid(ae56e4ed2076beb43901de13ca96afd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a629d6c0e357b34fe4b8af89977487a6') in 0.012078 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Explosiones/Textures/cloud_shade.psd
-  artifactKey: Guid(abd9fb01aa361f044be7066b09c5596f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Explosiones/Textures/cloud_shade.psd using Guid(abd9fb01aa361f044be7066b09c5596f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f932ab30f4b1a832fbbe13af77755734') in 0.066136 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Flooded_Grounds/Content/Textures/BLD_BrickHouse1_A.tif
-  artifactKey: Guid(ff65229a7320f7248bd4885b5a3932b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Content/Textures/BLD_BrickHouse1_A.tif using Guid(ff65229a7320f7248bd4885b5a3932b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb119f81cfe1b1889c36d2c369839858') in 0.027710 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Flooded_Grounds/Content/Textures/BLD_BrickHouse1_MS.tif
-  artifactKey: Guid(955950c9b775425459c371bd2f8d93b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Content/Textures/BLD_BrickHouse1_MS.tif using Guid(955950c9b775425459c371bd2f8d93b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae9555373260e45b929bca67c7e570bf') in 0.017668 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Flooded_Grounds/Content/Textures/BLD_Bridge1_A.tif
-  artifactKey: Guid(098fa56b6e8c3344cbce9e8a884c490b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Content/Textures/BLD_Bridge1_A.tif using Guid(098fa56b6e8c3344cbce9e8a884c490b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3304f02e76433ea4c2ef08a411108b4') in 0.027499 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/personajes/Protagonista/Boss_specular.png
-  artifactKey: Guid(9b5fbbf8e815ff94aa69525a8d089a4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/personajes/Protagonista/Boss_specular.png using Guid(9b5fbbf8e815ff94aa69525a8d089a4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74b61d087216859644de164c441c0f97') in 0.017826 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Flooded_Grounds/Content/Textures/BLD_Structures1_A.tif
-  artifactKey: Guid(20827a6cec0daea4a8c8059f9cbf0b6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Content/Textures/BLD_Structures1_A.tif using Guid(20827a6cec0daea4a8c8059f9cbf0b6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbfc4d804a26bfdf256ca8b49429d8eb') in 0.027995 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000107 seconds.
-  path: Assets/Flooded_Grounds/Content/Textures/BLD_Villa2_AO.tif
-  artifactKey: Guid(762e650bc96d191499fbb68fea6434ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Content/Textures/BLD_Villa2_AO.tif using Guid(762e650bc96d191499fbb68fea6434ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '456131d83dacd789fc35bfc39ec5ae95') in 0.017973 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Flooded_Grounds/Content/Textures/BLD_BrickHouse1_AO.tif
-  artifactKey: Guid(c77c5dd6079ae7749baa9f1611b6e412) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Content/Textures/BLD_BrickHouse1_AO.tif using Guid(c77c5dd6079ae7749baa9f1611b6e412) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e46d6866aa2682577f9d6942f1856749') in 0.017907 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Flooded_Grounds/Content/Textures/BLD_WindowGlass1_N.tif
-  artifactKey: Guid(eb799aa129deb9c4ca94540c1352657c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Content/Textures/BLD_WindowGlass1_N.tif using Guid(eb799aa129deb9c4ca94540c1352657c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e9bd339d332de944cc9138488b26a5b') in 0.016310 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Mapa_Y_Escenas/Containers/Cargo_container_v1/Source/Cargo_container_v1.psd
-  artifactKey: Guid(9a40ce69ff8bdec4faf3fd3418956f46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mapa_Y_Escenas/Containers/Cargo_container_v1/Source/Cargo_container_v1.psd using Guid(9a40ce69ff8bdec4faf3fd3418956f46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cf2542a6a023e774d8c7559912a9bed') in 0.151190 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Flooded_Grounds/Content/Textures/BLD_BrickHouse1_N.tif
-  artifactKey: Guid(acdfafac7cad4494fbe639d2347b38e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Content/Textures/BLD_BrickHouse1_N.tif using Guid(acdfafac7cad4494fbe639d2347b38e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b01e33618155236168ad1325108fee5a') in 0.037889 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000042 seconds.
-  path: Assets/Flooded_Grounds/Content/Textures/BLD_Rubble1_N.tif
-  artifactKey: Guid(c80a25e70d3edec40be25d1dc44dedb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Content/Textures/BLD_Rubble1_N.tif using Guid(c80a25e70d3edec40be25d1dc44dedb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e532c50d293f364c432140bfda2166ed') in 0.025800 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Mapa_Y_Escenas/Other_props/Conditioners/Conditioner_v1/Source/Conditioner_v1.tga
-  artifactKey: Guid(798c9806c9069ad4488f6954ef02cb10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mapa_Y_Escenas/Other_props/Conditioners/Conditioner_v1/Source/Conditioner_v1.tga using Guid(798c9806c9069ad4488f6954ef02cb10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92a1f8af7b9659899698945151a31a5f') in 0.134690 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 1.241738 seconds.
-  path: Assets/Flooded_Grounds/PostProcessing/Utilities/CustomMotionTexture/Textures/DebugMotionVectors.png
-  artifactKey: Guid(3aac3087967ea4fae858ec0494fd24d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/PostProcessing/Utilities/CustomMotionTexture/Textures/DebugMotionVectors.png using Guid(3aac3087967ea4fae858ec0494fd24d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4da400ffb3081ec58c9a93f1c1efc238') in 0.018122 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Flooded_Grounds/Content/Textures/DET_Concrete1_N.tif
-  artifactKey: Guid(276e4162aef7f994fafc01a3e444900c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Content/Textures/DET_Concrete1_N.tif using Guid(276e4162aef7f994fafc01a3e444900c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d794063472a94ba954ff1d9db9747d5') in 0.017746 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000084 seconds.
-  path: Assets/Flooded_Grounds/Content/Textures/DET_Concrete1_A.tif
-  artifactKey: Guid(c862d600284db8342b7687e0e97de574) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Content/Textures/DET_Concrete1_A.tif using Guid(c862d600284db8342b7687e0e97de574) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a2ba89bfd912b70890c02cdf3aa59a6') in 0.016499 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Flooded_Grounds/Prefabs/Nature/Trees/TreeCreator_Crinkly_B_Textures/diffuse.png
-  artifactKey: Guid(f7ca2177aed2c414b97900eb667a6f0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Prefabs/Nature/Trees/TreeCreator_Crinkly_B_Textures/diffuse.png using Guid(f7ca2177aed2c414b97900eb667a6f0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13345b26394ead57e84f5ea4c48d1ce6') in 0.019123 seconds
+  Time since last request: 0.069625 seconds.
+  path: Assets/Flooded_Grounds/PostProcessing/Utilities/CustomMotionTexture/Materials/DebugMotionVectors.mat
+  artifactKey: Guid(d7daeefbca4f14360bac0e1df1bdacd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flooded_Grounds/PostProcessing/Utilities/CustomMotionTexture/Materials/DebugMotionVectors.mat using Guid(d7daeefbca4f14360bac0e1df1bdacd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ba5a308b84befa9a6ce65b65711bda7') in 0.078372 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
   Time since last request: 0.000023 seconds.
-  path: Assets/Flooded_Grounds/Prefabs/Nature/Trees/TreeCreator_Crinkly_A_Textures/diffuse.png
-  artifactKey: Guid(751f84b02bf3975469a3bab18df92ab2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Prefabs/Nature/Trees/TreeCreator_Crinkly_A_Textures/diffuse.png using Guid(751f84b02bf3975469a3bab18df92ab2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04f1f92fa55d9b2e5cd53dd266543789') in 0.016283 seconds
+  path: Assets/Flooded_Grounds/PostProcessing/Utilities/CustomMotionTexture/Materials/WheelMotionVectors.mat
+  artifactKey: Guid(055f7217f136349d9b68e82b9e987dae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flooded_Grounds/PostProcessing/Utilities/CustomMotionTexture/Materials/WheelMotionVectors.mat using Guid(055f7217f136349d9b68e82b9e987dae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f0f1585e2e7b59a77850caf4df66174') in 0.007941 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Flooded_Grounds/Prefabs/Nature/Trees/TreeCreator_Small_B_Textures/diffuse.png
-  artifactKey: Guid(ec221d1885c1d554dbc49b8434a733d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Prefabs/Nature/Trees/TreeCreator_Small_B_Textures/diffuse.png using Guid(ec221d1885c1d554dbc49b8434a733d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da6fc839efa3a5a446c42b484c8203af') in 0.017183 seconds
+  Time since last request: 0.000023 seconds.
+  path: Assets/Flooded_Grounds/PostProcessing/Utilities/CustomMotionTexture/Materials/DebugQuad.mat
+  artifactKey: Guid(3c40c8fdc50a841579d7cb15882ac9d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flooded_Grounds/PostProcessing/Utilities/CustomMotionTexture/Materials/DebugQuad.mat using Guid(3c40c8fdc50a841579d7cb15882ac9d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95502d2aeea6ff92857a5d5d9f87c4b5') in 0.040649 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000105 seconds.
-  path: Assets/Flooded_Grounds/Prefabs/Nature/Trees/TreeCreator_Small_A_Textures/diffuse.png
-  artifactKey: Guid(c987d1c2e16f99941b95186a978b55be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Prefabs/Nature/Trees/TreeCreator_Small_A_Textures/diffuse.png using Guid(c987d1c2e16f99941b95186a978b55be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cec30d2b969909b9d30e8a9009d31711') in 0.011633 seconds
+  Time since last request: 0.000217 seconds.
+  path: Assets/Flooded_Grounds/PostProcessing/Utilities/CustomMotionTexture/Materials/UVChecker.mat
+  artifactKey: Guid(944463113244f4bf8b05c1757cd838a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flooded_Grounds/PostProcessing/Utilities/CustomMotionTexture/Materials/UVChecker.mat using Guid(944463113244f4bf8b05c1757cd838a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62f31f052b7d850fce856a551a6bec36') in 0.018249 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000080 seconds.
-  path: Assets/Flooded_Grounds/Prefabs/Nature/Trees/TreeCreator_Tall_A_Textures/diffuse.png
-  artifactKey: Guid(1966f9ae5febdc34ca429301320231b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Prefabs/Nature/Trees/TreeCreator_Tall_A_Textures/diffuse.png using Guid(1966f9ae5febdc34ca429301320231b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdf2379d49c36b7479f6fed35f0ef3cf') in 0.012372 seconds
+  Time since last request: 5.667638 seconds.
+  path: Assets/Flooded_Grounds/Scenes
+  artifactKey: Guid(31e2e1d8e55bde84ea36da51fd5c6a03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flooded_Grounds/Scenes using Guid(31e2e1d8e55bde84ea36da51fd5c6a03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '506618f13f9751aca8332992cd971cd0') in 0.000554 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Flooded_Grounds/Prefabs/Nature/Trees/TreeCreator_Tall_C_Textures/diffuse.png
-  artifactKey: Guid(d7f9639a9987293409af61852e3395c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Prefabs/Nature/Trees/TreeCreator_Tall_C_Textures/diffuse.png using Guid(d7f9639a9987293409af61852e3395c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2aeab3c5320dd200b97f72023332d9ba') in 0.011924 seconds
+  Time since last request: 0.056220 seconds.
+  path: Assets/Flooded_Grounds/Scenes/Postprocess_FloodedGrounds.asset
+  artifactKey: Guid(29ac70c6bc481c64fb76807cbc16dc82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flooded_Grounds/Scenes/Postprocess_FloodedGrounds.asset using Guid(29ac70c6bc481c64fb76807cbc16dc82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ede3b84623cf62010444b1d751f21258') in 0.001241 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000082 seconds.
-  path: Assets/Flooded_Grounds/Prefabs/Nature/Trees/TreeCreator_Tall_C_Dead_Textures/diffuse.png
-  artifactKey: Guid(15db16efa0580034189bf40d6d163b4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Prefabs/Nature/Trees/TreeCreator_Tall_C_Dead_Textures/diffuse.png using Guid(15db16efa0580034189bf40d6d163b4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af54c61dcc1343491abd643397bcc7ef') in 0.020375 seconds
+  Time since last request: 0.000014 seconds.
+  path: Assets/Flooded_Grounds/Scenes/Scene_A_Terrain.asset
+  artifactKey: Guid(3067f4c4673ebb049b67c5cadc9ef499) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flooded_Grounds/Scenes/Scene_A_Terrain.asset using Guid(3067f4c4673ebb049b67c5cadc9ef499) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11548c52f7d2731e452c4ba4df1dd861') in 0.154124 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+Number of asset objects unloaded after import = 175
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000095 seconds.
-  path: Assets/Flooded_Grounds/Prefabs/Nature/Trees/TreeCreator_Tall_B_Textures/diffuse.png
-  artifactKey: Guid(509121c1adb7f614b82d9820fedda9fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Prefabs/Nature/Trees/TreeCreator_Tall_B_Textures/diffuse.png using Guid(509121c1adb7f614b82d9820fedda9fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a48e00a7898d04473f73d4bc79ff4c7') in 0.011707 seconds
+  Time since last request: 8.053839 seconds.
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a4fe85251aa2e89732c359432baa2c3') in 0.000616 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000072 seconds.
-  path: Assets/Flooded_Grounds/Content/Textures/DET_Wood1_N.tif
-  artifactKey: Guid(71125a98538a1fc47baccad99640157e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Content/Textures/DET_Wood1_N.tif using Guid(71125a98538a1fc47baccad99640157e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b4cd2f39f12cd91669521da69433044') in 0.011770 seconds
+  Time since last request: 16.533311 seconds.
+  path: Assets/ElementosNivel_1
+  artifactKey: Guid(f1f7a3ce414f40f4ba644ad9fbac439d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ElementosNivel_1 using Guid(f1f7a3ce414f40f4ba644ad9fbac439d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf313227d0fac90fdd3d4914021af40a') in 0.000845 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+Number of asset objects unloaded after import = 0
 ========================================================================
-Received Import Request.
-  Time since last request: 0.000087 seconds.
-  path: Assets/Flooded_Grounds/Prefabs/Nature/Trees/TreeCreator_Bush_A_Textures/diffuse.png
-  artifactKey: Guid(68d09744ca1bfa148a24bb472ecb2456) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Prefabs/Nature/Trees/TreeCreator_Bush_A_Textures/diffuse.png using Guid(68d09744ca1bfa148a24bb472ecb2456) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '219537ae7580667b2bca2b1d8086717c') in 0.011785 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.397898 seconds.
-  path: Assets/Mapa_Y_Escenas/Dumpsters/Dumpsters_v1/Source/Dumpsters_v1.tga
-  artifactKey: Guid(8d573834b9816fa48b0bebb9c00194f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mapa_Y_Escenas/Dumpsters/Dumpsters_v1/Source/Dumpsters_v1.tga using Guid(8d573834b9816fa48b0bebb9c00194f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07e83a915ce617be2bb9eacc18ec49b9') in 0.053453 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.503207 seconds.
-  path: Assets/Mapa_Y_Escenas/Particles/Dust/Dust_v1/Source/Dust_v1.png
-  artifactKey: Guid(d7e5fde27df1afc4589bd84aa08d79af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mapa_Y_Escenas/Particles/Dust/Dust_v1/Source/Dust_v1.png using Guid(d7e5fde27df1afc4589bd84aa08d79af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3581f8fa86042602bf6ec3b0eea1af6') in 0.064837 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000086 seconds.
-  path: Assets/Mapa_Y_Escenas/Other_props/Electric_box/Electric_box_v1/Source/Electric_box_v1.tga
-  artifactKey: Guid(057064944ec7aca4dabc5785ae094d31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mapa_Y_Escenas/Other_props/Electric_box/Electric_box_v1/Source/Electric_box_v1.tga using Guid(057064944ec7aca4dabc5785ae094d31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da3287a3e12777e0cb71734ee5c2a195') in 0.013033 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.011736 seconds.
-  path: Assets/Mapa_Y_Escenas/Other_props/Electric_box/Electric_box_v2/Source/Electric_box_v2.tga
-  artifactKey: Guid(f2bf42e3b52f203428aedd3c24b69693) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mapa_Y_Escenas/Other_props/Electric_box/Electric_box_v2/Source/Electric_box_v2.tga using Guid(f2bf42e3b52f203428aedd3c24b69693) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a1cc6470da608a2944938a3adedf687') in 0.031513 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.047775 seconds.
-  path: Assets/Mapa_Y_Escenas/Other_props/Electric_box/Electric_box_v3/Source/Electric_box_v3.tga
-  artifactKey: Guid(04f3361e4517345498fca665ca71af76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mapa_Y_Escenas/Other_props/Electric_box/Electric_box_v3/Source/Electric_box_v3.tga using Guid(04f3361e4517345498fca665ca71af76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ac250288c30d482e1c4e4ee30ce5d07') in 0.018880 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.001390 seconds.
-  path: Assets/Explosiones/Textures/explosion_dissolve.psd
-  artifactKey: Guid(1c8e7b94b8dc34c41a5b9118081ec43d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Explosiones/Textures/explosion_dissolve.psd using Guid(1c8e7b94b8dc34c41a5b9118081ec43d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fbfe602c4f4dc999aedd77fd6f7ef8c') in 0.044056 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.006960 seconds.
-  path: Assets/Mapa_Y_Escenas/Other_props/Fans/Fan_v1/Source/Fan_v1.tga
-  artifactKey: Guid(42876c467c883f046b7ee24aa6e33bd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mapa_Y_Escenas/Other_props/Fans/Fan_v1/Source/Fan_v1.tga using Guid(42876c467c883f046b7ee24aa6e33bd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1b38cec876efc2ae134fb4d8226b61e') in 0.026471 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.012172 seconds.
-  path: Assets/Explosiones/Textures/flame.psd
-  artifactKey: Guid(0fdf179dbecda7f439d73d58be1ac191) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Explosiones/Textures/flame.psd using Guid(0fdf179dbecda7f439d73d58be1ac191) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bc3e4390a5c4da48284a827fc86d1f4') in 0.038526 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.013521 seconds.
-  path: Assets/Explosiones/Textures/flame_single.psd
-  artifactKey: Guid(bb713d404effa7c41a77db71e8bb46e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Explosiones/Textures/flame_single.psd using Guid(bb713d404effa7c41a77db71e8bb46e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd58e6334a6ebb77ba4de02a400a8eaaa') in 0.014972 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Flooded_Grounds/Content/Trees/SrcTextures/FOL_Branch1_AS.tif
-  artifactKey: Guid(ae2da5245646c01458580bd652e815de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Content/Trees/SrcTextures/FOL_Branch1_AS.tif using Guid(ae2da5245646c01458580bd652e815de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a10b4900fa79f19aa0b73d873e4f4858') in 0.025762 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Flooded_Grounds/Content/Trees/SrcTextures/FOL_Trunk3_D.tif
-  artifactKey: Guid(9108529ab04c6ee4483b5c220f726246) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Content/Trees/SrcTextures/FOL_Trunk3_D.tif using Guid(9108529ab04c6ee4483b5c220f726246) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df02b66a986282a832769e2fce01f3ba') in 0.014571 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Flooded_Grounds/Content/Trees/SrcTextures/FOL_BushFlower1_D.tif
-  artifactKey: Guid(5390c10622b90f94989de9ff0a2d2520) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Content/Trees/SrcTextures/FOL_BushFlower1_D.tif using Guid(5390c10622b90f94989de9ff0a2d2520) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8331a1c8f631857433a8792418cdfdc2') in 0.015388 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000086 seconds.
-  path: Assets/Flooded_Grounds/Content/Trees/SrcTextures/FOL_Branch2_AS.tif
-  artifactKey: Guid(1d659e72b3ec86e45956b9badeba6831) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Content/Trees/SrcTextures/FOL_Branch2_AS.tif using Guid(1d659e72b3ec86e45956b9badeba6831) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e05ac8b7a4ec72140f59e3c645d3dbd4') in 0.014955 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000086 seconds.
-  path: Assets/Mapa_Y_Escenas/Other_props/Generators/Generator_v1/Source/Generator_v1.tga
-  artifactKey: Guid(41aa5d342e81570478a3901e771ca209) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mapa_Y_Escenas/Other_props/Generators/Generator_v1/Source/Generator_v1.tga using Guid(41aa5d342e81570478a3901e771ca209) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b82667f2723b6c653f3609849fed2ea6') in 0.038299 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Flooded_Grounds/Content/Trees/SrcTextures/FOL_BushBranch1_N.tif
-  artifactKey: Guid(c13265f490312a44088f65f4c1644d2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Content/Trees/SrcTextures/FOL_BushBranch1_N.tif using Guid(c13265f490312a44088f65f4c1644d2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb5daceba47446fe83ee882c0601ccd0') in 0.014540 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000100 seconds.
-  path: Assets/Flooded_Grounds/Content/Textures/GR_Dirt1_AS.tif
-  artifactKey: Guid(02673374cc571ec438a822816aabffff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Content/Textures/GR_Dirt1_AS.tif using Guid(02673374cc571ec438a822816aabffff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f7c156dfa45d482e7f7bb98b1d24de6') in 0.014896 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Explosiones/Textures/glow.png
-  artifactKey: Guid(c0a8eaca583607549838af6fcfdc1c74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Explosiones/Textures/glow.png using Guid(c0a8eaca583607549838af6fcfdc1c74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0f14516d58b6ed7d4d005438aa80a4c') in 0.012142 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000088 seconds.
-  path: Assets/Flooded_Grounds/Content/Trees/SrcTextures/FOL_BushFlower1_N.tif
-  artifactKey: Guid(caf13ffc086061d41bef50689b9e6eb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Content/Trees/SrcTextures/FOL_BushFlower1_N.tif using Guid(caf13ffc086061d41bef50689b9e6eb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aafacf683a2e49aabcd7fd795a0ed115') in 0.015975 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/Flooded_Grounds/Content/Textures/GR_Asphalt1_AS.tif
-  artifactKey: Guid(1a925eec37989544899b54f458ec2f08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Content/Textures/GR_Asphalt1_AS.tif using Guid(1a925eec37989544899b54f458ec2f08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7c409b2f4ae43dbb830462b9272a5bb') in 0.015717 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000045 seconds.
-  path: Assets/Flooded_Grounds/Content/Textures/GR_Dirt1_N.tif
-  artifactKey: Guid(504c6e0b6a68a1141aeb5b2328db2a42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Content/Textures/GR_Dirt1_N.tif using Guid(504c6e0b6a68a1141aeb5b2328db2a42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bea8224346306e09f4a8522e937c26c') in 0.042224 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Flooded_Grounds/Content/Trees/SrcTextures/FOL_Trunk1_A.tif
-  artifactKey: Guid(36d142a4a8dda2746bfa4cfa29630d71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Content/Trees/SrcTextures/FOL_Trunk1_A.tif using Guid(36d142a4a8dda2746bfa4cfa29630d71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93d47fb3693bcbe12981a556ee0ac9cb') in 0.012782 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000105 seconds.
-  path: Assets/Flooded_Grounds/Content/Textures/GR_Asphalt1_N.tif
-  artifactKey: Guid(c11fbfccde3717848823659d1dc067bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Content/Textures/GR_Asphalt1_N.tif using Guid(c11fbfccde3717848823659d1dc067bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b2ab8dc586713409adfafbf8b0afba7') in 0.015631 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000189 seconds.
-  path: Assets/Flooded_Grounds/Content/Trees/SrcTextures/FOL_Trunk1_N.tif
-  artifactKey: Guid(8c815fedd86aa034691f5a6df6864d18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Content/Trees/SrcTextures/FOL_Trunk1_N.tif using Guid(8c815fedd86aa034691f5a6df6864d18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03bf73f7ff529f295c54b135acfaa5eb') in 0.024530 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Flooded_Grounds/Content/Trees/SrcTextures/FOL_BushBranch1_D.tif
-  artifactKey: Guid(91c87f223cdd2384582ee577eb01c946) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Content/Trees/SrcTextures/FOL_BushBranch1_D.tif using Guid(91c87f223cdd2384582ee577eb01c946) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41e9a53ce1ae9542ea31751b692d4a43') in 0.024510 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Flooded_Grounds/Content/Trees/SrcTextures/FOL_Trunk3_N.tif
-  artifactKey: Guid(6659e5dd8c2f0864d8092080d9b47a3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Content/Trees/SrcTextures/FOL_Trunk3_N.tif using Guid(6659e5dd8c2f0864d8092080d9b47a3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d8485ba252506ff66c40ce721d329dd') in 0.021193 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Flooded_Grounds/Content/Trees/SrcTextures/FOL_Branch2_N.tif
-  artifactKey: Guid(a7012ccbfd374b84a89fd27deeab137b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Content/Trees/SrcTextures/FOL_Branch2_N.tif using Guid(a7012ccbfd374b84a89fd27deeab137b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '552e30edb22b2a4bf0041a204319dd39') in 0.027501 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Mapa_Y_Escenas/Textures/Grass/Grass_v1.tga
-  artifactKey: Guid(458fc6f7dd428e748a22f2ed232be143) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mapa_Y_Escenas/Textures/Grass/Grass_v1.tga using Guid(458fc6f7dd428e748a22f2ed232be143) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56fff80b7a5791e76d3c32a69447c786') in 0.460947 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Flooded_Grounds/Content/Textures/FOL_Hedge1_N.tif
-  artifactKey: Guid(d90049466cf0ab8438d398546b028b67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Content/Textures/FOL_Hedge1_N.tif using Guid(d90049466cf0ab8438d398546b028b67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6f035f3ee0848a14e528b7e44c2a57b') in 0.021593 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Flooded_Grounds/Content/Trees/SrcTextures/FOL_Branch1_N.tif
-  artifactKey: Guid(8eab5014992a02147bca0eda9e602f53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Content/Trees/SrcTextures/FOL_Branch1_N.tif using Guid(8eab5014992a02147bca0eda9e602f53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a37372e7493e2e3f8e925fd05b5ddd17') in 0.022896 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 39.710403 seconds.
-  path: Assets/Flooded_Grounds/Content/Textures/NAT_Grass1_AS.tif
-  artifactKey: Guid(91d2eb104975da745b684b83e3cb8553) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Content/Textures/NAT_Grass1_AS.tif using Guid(91d2eb104975da745b684b83e3cb8553) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed67675420f32ff691831b1f17be74e5') in 0.029923 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 142.022627 seconds.
-  path: Assets/NewLayer 2.terrainlayer
-  artifactKey: Guid(01f3e0ce318162c41814318af94bc365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NewLayer 2.terrainlayer using Guid(01f3e0ce318162c41814318af94bc365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07ba81bd4bc64a2a57aa5fad03030539') in 0.087065 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 5.310716 seconds.
-  path: Assets/Flooded_Grounds/Content/Textures/NAT_Grass1_N.tif
-  artifactKey: Guid(33ae1acfe6693134e960e547690a42da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Flooded_Grounds/Content/Textures/NAT_Grass1_N.tif using Guid(33ae1acfe6693134e960e547690a42da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbe1066585d58a1a9813d93a7352b147') in 0.019612 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 342.565632 seconds.
-  path: Assets/_TerrainAutoUpgrade/layer_GR_Dirt1_ASGR_Dirt1_N3d1cca0d6d0e9938.terrainlayer
-  artifactKey: Guid(8d2cbf0e5ea176149adc04132052ba39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_TerrainAutoUpgrade/layer_GR_Dirt1_ASGR_Dirt1_N3d1cca0d6d0e9938.terrainlayer using Guid(8d2cbf0e5ea176149adc04132052ba39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6dca68c62b01c22df8a8140492a328ce') in 0.039668 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 4
-========================================================================
-Received Import Request.
-  Time since last request: 8.224466 seconds.
-  path: Assets/_TerrainAutoUpgrade/layer_GR_Asphalt1_ASGR_Asphalt1_Nd261c09ae55ba1e3.terrainlayer
-  artifactKey: Guid(05ba5d53cfca95942a3d9e5d8fec971c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_TerrainAutoUpgrade/layer_GR_Asphalt1_ASGR_Asphalt1_Nd261c09ae55ba1e3.terrainlayer using Guid(05ba5d53cfca95942a3d9e5d8fec971c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6e240a60a35ae9c35dbb8ccf5093ef4') in 0.044318 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 4
-========================================================================
-Received Import Request.
-  Time since last request: 3.163391 seconds.
-  path: Assets/_TerrainAutoUpgrade/layer_GR_Moss1_ASGR_Moss1_N3d1cca0d6d0e9938.terrainlayer
-  artifactKey: Guid(3b7ccd97d0f2a06459915863b267d000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_TerrainAutoUpgrade/layer_GR_Moss1_ASGR_Moss1_N3d1cca0d6d0e9938.terrainlayer using Guid(3b7ccd97d0f2a06459915863b267d000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f919eee2525d35e16a91ba47a967d565') in 0.032736 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 4
-========================================================================
-Received Import Request.
-  Time since last request: 135.216697 seconds.
-  path: Assets/TerrainData_a228babe-999c-40ba-9f4c-fc6e20acfaac.asset
-  artifactKey: Guid(9d02b9fbf564a2c488eb650bff95306c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TerrainData_a228babe-999c-40ba-9f4c-fc6e20acfaac.asset using Guid(9d02b9fbf564a2c488eb650bff95306c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33d4ae3b38532a4168b49dad20bd2bb9') in 0.034662 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 4
-========================================================================
-Received Import Request.
-  Time since last request: 0.888361 seconds.
-  path: Assets/TerrainData_b99cc6d3-718d-44f4-90a9-867aaca13fb4.asset
-  artifactKey: Guid(2efbd5be1fef158408fde7158c24a83e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TerrainData_b99cc6d3-718d-44f4-90a9-867aaca13fb4.asset using Guid(2efbd5be1fef158408fde7158c24a83e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62a1158f320daf1d265a3cc7d7d5555b') in 0.028322 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 4
-========================================================================
-Received Import Request.
-  Time since last request: 4.767443 seconds.
-  path: Assets/New Terrain.asset
-  artifactKey: Guid(f1f05e39a0f824b45aa4e1f17f6a9c1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New Terrain.asset using Guid(f1f05e39a0f824b45aa4e1f17f6a9c1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7a6f93d3f46dd0855c4a2c38d2e3f62') in 0.009151 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.418 seconds
+Refreshing native plugins compatible for Editor in 5.78 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.045 seconds
+Domain Reload Profiling: 1461ms
+	BeginReloadAssembly (142ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (31ms)
+	RebuildCommonClasses (32ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (26ms)
+	LoadAllAssembliesAndSetupDomain (204ms)
+		LoadAssemblies (259ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (22ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (1ms)
+			ScanForSourceGeneratedMonoScriptInfo (7ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (1046ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (441ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (56ms)
+			ProcessInitializeOnLoadAttributes (352ms)
+			ProcessInitializeOnLoadMethodAttributes (22ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 5.62 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3309 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 45 unused Assets / (2.2 MB). Loaded Objects now: 3920.
+Memory consumption went from 148.5 MB to 146.3 MB.
+Total: 3.186600 ms (FindLiveObjects: 0.250800 ms CreateObjectMapping: 0.209600 ms MarkObjects: 2.193400 ms  DeleteObjects: 0.532300 ms)
+
+Prepare: number of updated asset objects reloaded= 14
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
