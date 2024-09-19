@@ -4,17 +4,23 @@ using UnityEngine;
 
 public class Movimiento : MonoBehaviour
 {
-    public float speed = 5f;         // Velocidad de movimiento horizontal
-    public float jumpHeight = 2f;    // Altura del salto
-    public float gravity = 9.81f;    // Magnitud de la gravedad
-    public float rotationSpeed = 700f; // Velocidad de rotación
-    public GameObject misilObject;   // Referencia al objeto que contiene el misil
-    public GolpeNormal golpeNormal;  // Referencia al área de golpe normal
+    public float speed = 5f;              // Velocidad de movimiento horizontal
+    public float jumpHeight = 2f;        // Altura del salto
+    public float gravity = 9.81f;        // Magnitud de la gravedad
+    public float rotationSpeed = 700f;   // Velocidad de rotación
+    public GameObject nuevaBalaPrefab;   // Prefab de la nueva bala
+    public Transform disparoPunto;        // Punto desde el cual se dispara la bala
+    public float intervaloDisparo = 1f;   // Intervalo de tiempo entre disparos
+    public GameObject animMisilObject;    // Referencia al GameObject que contiene la animación del misil
+
+    public GolpeNormal golpeNormal;       // Referencia al área de golpe normal
     public GolpeFuerteArea golpeFuerteArea; // Referencia al área de golpe fuerte
+    private Misil misilScript;            // Referencia al script Misil
 
     private CharacterController controller;
     private Animator animator;
-    private Misil misilScript;       // Referencia al script del misil
+    private float tiempoUltimoDisparo = -1f;
+
     private Vector3 velocity;
     private bool isGrounded;
 
@@ -26,10 +32,10 @@ public class Movimiento : MonoBehaviour
         controller = GetComponent<CharacterController>();
         // Obtén el componente Animator
         animator = GetComponent<Animator>();
-        // Obtén el script del misil si existe
-        if (misilObject != null)
+        // Obtén el componente Misil del GameObject que contiene la animación
+        if (animMisilObject != null)
         {
-            misilScript = misilObject.GetComponent<Misil>();
+            misilScript = animMisilObject.GetComponent<Misil>();
         }
     }
 
@@ -76,16 +82,17 @@ public class Movimiento : MonoBehaviour
         // Controles de combate
         HandleCombat();
 
-        // Lanza el misil cuando se presiona la tecla "E"
+        // Dispara la nueva bala cuando se presiona la tecla "Q" y se respeta el intervalo de disparo
+        if (Input.GetKeyDown(KeyCode.Q) && Time.time >= tiempoUltimoDisparo + intervaloDisparo && nuevaBalaPrefab != null && disparoPunto != null)
+        {
+            DispararNuevaBala();
+            tiempoUltimoDisparo = Time.time;
+        }
+
+        // Activa la animación "Misil" cuando se presiona la tecla "E"
         if (Input.GetKeyDown(KeyCode.E) && misilScript != null)
         {
             misilScript.LanzarMisil();
-        }
-
-        // Activa la animación "Lanzo" cuando se presiona la tecla "Q"
-        if (Input.GetKeyDown(KeyCode.Q))
-        {
-            animator.SetTrigger("Lanzo");
         }
     }
 
@@ -121,6 +128,25 @@ public class Movimiento : MonoBehaviour
             {
                 golpeFuerteArea.IniciarGolpeFuerte();
             }
+        }
+    }
+
+    void DispararNuevaBala()
+    {
+        if (nuevaBalaPrefab != null && disparoPunto != null)
+        {
+            GameObject bala = Instantiate(nuevaBalaPrefab, disparoPunto.position, disparoPunto.rotation);
+            Debug.Log("Bala instanciada en: " + disparoPunto.position);
+
+            // Asegúrate de que la bala tenga un Rigidbody y esté configurado correctamente
+            Rigidbody balaRb = bala.GetComponent<Rigidbody>();
+            if (balaRb != null)
+            {
+                balaRb.velocity = bala.transform.forward * 10f; // Ajusta la velocidad como necesites
+            }
+
+            // Activa la animación "Lanzo"
+            animator.SetTrigger("Lanzo");
         }
     }
 }
