@@ -4,35 +4,54 @@ using UnityEngine;
 
 public class GolpeFuerteArea : MonoBehaviour
 {
-    public float tiempoAntesDeDaño = 1f; // Tiempo que debe esperar antes de hacer daño
-    public float dañoGolpeFuerte = 20f; // Daño del golpe fuerte
-
+    public float tiempoAntesDeDaño = 1f;   // Tiempo de espera antes de aplicar daño
+    public float dañoGolpeFuerte = 20f;    // Daño del golpe fuerte
+    public float tiempoActivoGolpe = 0.5f; // Duración del golpe
     private bool golpeFuerteActivado = false;
-    private float tiempoDeActivacion;
+    private List<Collider> enemigosDentroDelArea = new List<Collider>();
 
     private void OnTriggerEnter(Collider other)
     {
-        if (golpeFuerteActivado && other.CompareTag("Enemigo")) // Ajusta el tag según sea necesario
+        if (other.CompareTag("Enemigo")) // Verifica si el objeto es un enemigo
         {
-            Salud saludEnemigo = other.GetComponent<Salud>();
-            if (saludEnemigo != null)
-            {
-                saludEnemigo.RecibirDaño(dañoGolpeFuerte);
-                golpeFuerteActivado = false; // Desactiva el golpe fuerte después de hacer daño
-            }
+            enemigosDentroDelArea.Add(other); // Añadir el enemigo a la lista
+        }
+    }
+
+    private void OnTriggerExit(Collider other)
+    {
+        if (other.CompareTag("Enemigo")) // Cuando el enemigo sale del área
+        {
+            enemigosDentroDelArea.Remove(other); // Eliminar el enemigo de la lista
         }
     }
 
     public void IniciarGolpeFuerte()
     {
         golpeFuerteActivado = true;
-        tiempoDeActivacion = Time.time;
         StartCoroutine(EsperarYAplicarDaño());
     }
 
     private IEnumerator EsperarYAplicarDaño()
     {
-        yield return new WaitForSeconds(tiempoAntesDeDaño);
-        // Aquí puedes activar el daño si es necesario.
+        yield return new WaitForSeconds(tiempoAntesDeDaño); // Espera antes de aplicar el daño
+
+        if (golpeFuerteActivado)
+        {
+            foreach (Collider enemigo in enemigosDentroDelArea)
+            {
+                Salud saludEnemigo = enemigo.GetComponent<Salud>();
+                if (saludEnemigo != null)
+                {
+                    saludEnemigo.RecibirDaño(dañoGolpeFuerte); // Aplica daño a cada enemigo dentro del área
+                }
+            }
+        }
+        golpeFuerteActivado = false; // Desactiva el golpe después de aplicar daño
+    }
+
+    public void DesactivarGolpeFuerte()
+    {
+        golpeFuerteActivado = false;
     }
 }
