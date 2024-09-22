@@ -215,7 +215,7 @@ GameObject:
   - component: {fileID: 24586167}
   - component: {fileID: 24586166}
   m_Layer: 0
-  m_Name: Collider_#2
+  m_Name: GameObject (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -240,8 +240,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 21.469126, y: 8.425629, z: 6.870331}
-  m_Center: {x: -12.172078, y: -15.75165, z: 40.921165}
+  m_Size: {x: 37.066307, y: 8.425629, z: 6.870331}
+  m_Center: {x: -4.3734765, y: -15.75165, z: 40.921097}
 --- !u!4 &24586167
 Transform:
   m_ObjectHideFlags: 0
@@ -267,6 +267,61 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4000010089197750, guid: 8632b7283e4ce284d8b8cd7c70d079f3, type: 3}
   m_PrefabInstance: {fileID: 988752442}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &45030595
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 45030596}
+  - component: {fileID: 45030597}
+  m_Layer: 0
+  m_Name: GameObject (9)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &45030596
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 45030595}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 414058749}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!136 &45030597
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 45030595}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 2.8869781
+  m_Height: 5.7739563
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: -2.3869781}
 --- !u!4 &49085781 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 484248, guid: babcc1aaacfd18a43aa346a87c9002f0, type: 3}
@@ -288,7 +343,7 @@ GameObject:
   - component: {fileID: 78262128}
   - component: {fileID: 78262127}
   m_Layer: 0
-  m_Name: Collider_#10
+  m_Name: GameObject (12)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -619,7 +674,7 @@ Transform:
   - {fileID: 754823998}
   - {fileID: 1736862221}
   - {fileID: 770199710}
-  - {fileID: 1807386843}
+  - {fileID: 45030596}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &416546547
@@ -861,7 +916,7 @@ GameObject:
   - component: {fileID: 631884342}
   - component: {fileID: 631884341}
   m_Layer: 0
-  m_Name: Collider_#9
+  m_Name: GameObject (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1281,7 +1336,7 @@ GameObject:
   - component: {fileID: 754823998}
   - component: {fileID: 754823997}
   m_Layer: 0
-  m_Name: Collider_#11
+  m_Name: GameObject (13)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1334,7 +1389,7 @@ GameObject:
   - component: {fileID: 770199710}
   - component: {fileID: 770199709}
   m_Layer: 0
-  m_Name: Collider_#13
+  m_Name: GameObject (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1433,7 +1488,7 @@ GameObject:
   - component: {fileID: 780081132}
   - component: {fileID: 780081131}
   m_Layer: 0
-  m_Name: collider_#1
+  m_Name: GameObject (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1491,7 +1546,7 @@ GameObject:
   - component: {fileID: 812795273}
   - component: {fileID: 812795272}
   m_Layer: 0
-  m_Name: Collider_#3
+  m_Name: GameObject (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1544,7 +1599,7 @@ GameObject:
   - component: {fileID: 814613476}
   - component: {fileID: 814613475}
   m_Layer: 0
-  m_Name: Collider_#7
+  m_Name: GameObject (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1687,7 +1742,7 @@ GameObject:
   - component: {fileID: 876304937}
   - component: {fileID: 876304936}
   m_Layer: 0
-  m_Name: Collider_#5
+  m_Name: GameObject (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2098,19 +2153,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4000010089197750, guid: 8632b7283e4ce284d8b8cd7c70d079f3, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.90618044
+      value: 0.8224054
       objectReference: {fileID: 0}
     - target: {fileID: 4000010089197750, guid: 8632b7283e4ce284d8b8cd7c70d079f3, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.00000001980523
+      value: 0.000000017974251
       objectReference: {fileID: 0}
     - target: {fileID: 4000010089197750, guid: 8632b7283e4ce284d8b8cd7c70d079f3, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.42289123
+      value: -0.5689019
       objectReference: {fileID: 0}
     - target: {fileID: 4000010089197750, guid: 8632b7283e4ce284d8b8cd7c70d079f3, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.000000009242586
+      value: 0.000000012433752
       objectReference: {fileID: 0}
     - target: {fileID: 4000010089197750, guid: 8632b7283e4ce284d8b8cd7c70d079f3, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -2118,7 +2173,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4000010089197750, guid: 8632b7283e4ce284d8b8cd7c70d079f3, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: -50.035
+      value: -69.347
       objectReference: {fileID: 0}
     - target: {fileID: 4000010089197750, guid: 8632b7283e4ce284d8b8cd7c70d079f3, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
@@ -2193,7 +2248,7 @@ GameObject:
   - component: {fileID: 1310467944}
   - component: {fileID: 1310467943}
   m_Layer: 0
-  m_Name: Collider_#6
+  m_Name: GameObject (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2637,7 +2692,7 @@ GameObject:
   - component: {fileID: 1686485209}
   - component: {fileID: 1686485208}
   m_Layer: 0
-  m_Name: Collider
+  m_Name: GameObject
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2747,7 +2802,7 @@ GameObject:
   - component: {fileID: 1736862221}
   - component: {fileID: 1736862220}
   m_Layer: 0
-  m_Name: Collider_#12
+  m_Name: GameObject (14)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2918,37 +2973,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fee6e1da33beae9409089ab8a832464f, type: 3}
---- !u!1 &1807386842
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1807386843}
-  m_Layer: 0
-  m_Name: Collider_#14
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1807386843
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1807386842}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 47.243988, y: -52.32203, z: -56.782288}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 414058749}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1820579353
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3050,7 +3074,7 @@ GameObject:
   - component: {fileID: 1861543497}
   - component: {fileID: 1861543496}
   m_Layer: 0
-  m_Name: Collider_#4
+  m_Name: GameObject (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3257,7 +3281,7 @@ GameObject:
   - component: {fileID: 1907043002}
   - component: {fileID: 1907043001}
   m_Layer: 0
-  m_Name: Collider_#8
+  m_Name: GameObject (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
