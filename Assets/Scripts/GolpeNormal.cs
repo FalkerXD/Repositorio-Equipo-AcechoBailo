@@ -4,54 +4,54 @@ using UnityEngine;
 
 public class GolpeNormal : MonoBehaviour
 {
-    public float dañoGolpeNormal = 10f;   // Daño del golpe normal
-    public float intervaloDeDaño = 0.5f;  // Intervalo de tiempo entre aplicaciones de daño
-    private bool golpeActivo = false;     // Indica si el golpe está activo
-    private List<Collider> enemigosDentroDelArea = new List<Collider>(); // Lista de enemigos en el área
+    public float dañoGolpeNormal = 10f; // Daño del golpe normal
+    public float tiempoDeDaño = 0.5f; // Tiempo que el golpe normal debe aplicar daño
+
+    private bool golpeActivo = false;
+    private float tiempoDeActivacion;
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag("Enemigo")) // Verifica si el objeto es un enemigo
+        if (golpeActivo && other.CompareTag("Enemigo")) // Ajusta el tag según sea necesario
         {
-            enemigosDentroDelArea.Add(other); // Añade el enemigo a la lista
-        }
-    }
-
-    private void OnTriggerExit(Collider other)
-    {
-        if (other.CompareTag("Enemigo")) // Cuando el enemigo sale del área
-        {
-            enemigosDentroDelArea.Remove(other); // Elimina el enemigo de la lista
+            Salud saludEnemigo = other.GetComponent<Salud>();
+            if (saludEnemigo != null)
+            {
+                saludEnemigo.RecibirDaño(dañoGolpeNormal);
+            }
         }
     }
 
     public void ActivarGolpeNormal()
     {
         golpeActivo = true;
-        StartCoroutine(AplicarDañoContinuo());
+        tiempoDeActivacion = Time.time;
+        StartCoroutine(EsperarYAplicarDaño());
     }
 
-    private IEnumerator AplicarDañoContinuo()
+    private IEnumerator EsperarYAplicarDaño()
     {
-        // Mientras el golpe esté activo, aplica daño cada intervalo de tiempo
         while (golpeActivo)
         {
-            foreach (Collider enemigo in enemigosDentroDelArea)
+            yield return new WaitForSeconds(tiempoDeDaño);
+            // Aplica el daño mientras el golpe está activo
+            Collider[] coliders = Physics.OverlapSphere(transform.position, 1f); // Ajusta el tamaño del área según sea necesario
+            foreach (var collider in coliders)
             {
-                Salud saludEnemigo = enemigo.GetComponent<Salud>();
-                if (saludEnemigo != null)
+                if (collider.CompareTag("Enemigo"))
                 {
-                    saludEnemigo.RecibirDaño(dañoGolpeNormal); // Aplica el daño al enemigo
+                    Salud saludEnemigo = collider.GetComponent<Salud>();
+                    if (saludEnemigo != null)
+                    {
+                        saludEnemigo.RecibirDaño(dañoGolpeNormal);
+                    }
                 }
             }
-            // Espera antes de aplicar el daño de nuevo
-            yield return new WaitForSeconds(intervaloDeDaño);
         }
     }
 
     public void DesactivarGolpeNormal()
     {
-        golpeActivo = false; // Desactiva el golpe
-        StopCoroutine(AplicarDañoContinuo()); // Detén el daño continuo
+        golpeActivo = false;
     }
 }
